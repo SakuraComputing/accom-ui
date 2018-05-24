@@ -1,0 +1,12 @@
+.idea
+node_modules/*
+.iml
+*.log
+yarn.lock
+public/dist
+coverage/
+config/*
+
+
+.env.test
+.env.development
