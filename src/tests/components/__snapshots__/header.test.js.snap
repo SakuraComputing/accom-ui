@@ -16,14 +16,9 @@ exports[`Header Page should render header correctly 1`] = `
         to="/dashboard"
       >
         <h1>
-          Expensify
+          Accomodation UI
         </h1>
       </Link>
-      <button
-        className="button button--link"
-      >
-        Logout
-      </button>
     </div>
   </div>
 </header>
