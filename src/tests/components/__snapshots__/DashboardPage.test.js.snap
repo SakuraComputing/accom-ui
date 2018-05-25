@@ -2,8 +2,6 @@
 
 exports[`Dashboard Page should render Expense dashboard page correctly 1`] = `
 <body>
-  <h1>
-    Acommodation User Interface
-  </h1>
+  <Connect(Accommodations) />
 </body>
 `;

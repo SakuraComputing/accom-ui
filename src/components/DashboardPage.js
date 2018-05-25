@@ -1,8 +1,9 @@
 import React from 'react';
+import Accommodations from '../../src/components/Accommodations';
 
 const DashboardPage = () =>(
     <body>
-        <h1>Acommodation User Interface</h1>
+        <Accommodations/>
     </body>
 );
 export default DashboardPage;
