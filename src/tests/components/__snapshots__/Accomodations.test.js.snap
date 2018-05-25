@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Accomodations Page should render the accomodations page correctly 1`] = `
-<table>
-  <tbody />
-</table>
-`;

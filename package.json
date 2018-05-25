@@ -8,7 +8,7 @@
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
-    "start": "node server/server.js"
+    "start": "nodemon server/server.js"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -52,6 +52,7 @@
     "enzyme-to-json": "3.0.1",
     "jest": "20.0.4",
     "react-test-renderer": "16.0.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack-dev-server": "2.5.1",
+    "nodemon": "^1.17.3"
   }
 }
