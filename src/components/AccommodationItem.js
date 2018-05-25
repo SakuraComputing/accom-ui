@@ -1,15 +1,15 @@
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser';
 
 class AccommodationItem extends React.Component {
 
     render() {
 
         const { accommodation } = this.props;
-        console.log(this.props);
         return (
             <div>
                 <h2>{this.props.name}</h2>
-                {this.props.description}
+                { ReactHtmlParser(this.props.description)}
                 {/*<div>{this.props.type}</div>*/}
                 {/*<div>{this.props.facilities}</div>*/}
             </div>
