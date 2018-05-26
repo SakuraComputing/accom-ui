@@ -4,7 +4,7 @@ import toJSON from 'enzyme-to-json';
 import DashboardPage from '../../components/DashboardPage';
 
 describe('Dashboard Page', () => {
-    it('should render Expense dashboard page correctly',() => {
+    it('should render accomodation UI dashboard page correctly',() => {
         const wrapper = shallow(<DashboardPage />);
         expect(toJSON(wrapper)).toMatchSnapshot();
     });

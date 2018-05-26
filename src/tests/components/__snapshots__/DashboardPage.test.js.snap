@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dashboard Page should render Expense dashboard page correctly 1`] = `
+exports[`Dashboard Page should render accomodation UI dashboard page correctly 1`] = `
 <body>
   <Connect(Accommodations) />
 </body>
