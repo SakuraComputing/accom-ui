@@ -12,7 +12,6 @@ export class Accommodations extends React.Component {
     }
 
     render() {
-        const { accommodations, loading } = this.props.accommodation;
 
         let accommodationItem;
 
@@ -43,7 +42,6 @@ export class Accommodations extends React.Component {
 }
 
 Accommodations.propTypes = {
-    getAccommodations: PropTypes.func.isRequired,
     accommodation: PropTypes.object.isRequired
 };
 
