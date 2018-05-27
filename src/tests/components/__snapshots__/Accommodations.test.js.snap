@@ -23,7 +23,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
         >
           Browse Accommodations
         </p>
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
           address_3="Mayrhofen"
@@ -172,7 +172,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
           }
           sort_order={0}
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -813,7 +813,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Ahornstrasse 850"
           address_2=""
           address_3="Mayrhofen"
@@ -1030,7 +1030,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -1487,7 +1487,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 126"
           address_2=""
           address_3="Mayrhofen"
@@ -1666,7 +1666,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau 17"
           address_2=""
           address_3="Mayrhofen"
@@ -1861,7 +1861,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Brandbergstrasse 352"
           address_2=""
           address_3="Mayrhofen"
@@ -2028,7 +2028,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Edenlehen 676"
           address_2=""
           address_3="Mayrhofen"
@@ -2223,7 +2223,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -2547,7 +2547,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 346"
           address_2=""
           address_3="Mayrhofen"
@@ -2714,7 +2714,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="breitlahneweg 285"
           address_2=""
           address_3="Mayrhofen"
@@ -2899,7 +2899,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Einfahrt Mitte 431"
           address_2=""
           address_3="Mayrhofen"
@@ -3012,7 +3012,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dornaustrasse 612"
           address_2=""
           address_3="Mayrhofen"
@@ -3211,7 +3211,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Tuxeurstrabe 722"
           address_2=""
           address_3="Mayrhofen"
@@ -3430,7 +3430,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Kumbichl 874"
           address_2=""
           address_3="Mayrhofen"
@@ -3563,7 +3563,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schwendaustrasse 197"
           address_2=""
           address_3="Osterreich, Mayrhofen"
@@ -3714,7 +3714,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 439"
           address_2="Zillertal"
           address_3="Mayrhofen"
@@ -3933,7 +3933,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -4228,7 +4228,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 400"
           address_2=""
           address_3="Mayrhofen"
@@ -4543,7 +4543,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="AM Marktplatz 202"
           address_2=""
           address_3="Mayrhofen"
@@ -4724,7 +4724,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schmiedwiese 170"
           address_2=""
           address_3="Mayrhofen"
@@ -4909,7 +4909,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
           address_3="Mayrhofen"
@@ -5064,7 +5064,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Lindenstrasse 40"
           address_2=""
           address_3=""
@@ -5173,7 +5173,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 70"
           address_2=""
           address_3="Mayrhofen"
@@ -5308,7 +5308,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 105"
           address_2=""
           address_3="Mayrhofen"
@@ -5491,7 +5491,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Linde Strasse 28"
           address_2=""
           address_3="6283 Schwendau"
@@ -5594,7 +5594,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 101"
           address_2=""
           address_3="Hollenzen"
@@ -5713,7 +5713,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 260"
           address_2=""
           address_3="Mayrhofen"
@@ -5816,7 +5816,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 371"
           address_2=""
           address_3="Mayrhofen"
@@ -5951,7 +5951,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schwendaustrasse 199"
           address_2=""
           address_3="Mayrhofen"
@@ -6088,7 +6088,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -6591,7 +6591,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 254"
           address_2="Osterreich"
           address_3="Mayrhofen"
@@ -6776,7 +6776,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Brandbergstrasse 353,"
           address_2=""
           address_3="Mayrhofen"
@@ -6983,7 +6983,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -7446,7 +7446,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 670"
           address_2=""
           address_3="Mayrhofen"
@@ -7651,7 +7651,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 470"
           address_2=""
           address_3=""
@@ -7996,7 +7996,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 279"
           address_2=""
           address_3="Mayrhofen"
@@ -8179,7 +8179,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 341"
           address_2=""
           address_3="Mayrhofen"
@@ -8366,7 +8366,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dursterstr. 220"
           address_2=""
           address_3="A-6290 Mayrhofen,"
@@ -8597,7 +8597,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 670"
           address_2=""
           address_3="Mayrhofen"
@@ -8772,7 +8772,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 346"
           address_2=""
           address_3="Mayrhofen"
@@ -8963,7 +8963,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 279"
           address_2=""
           address_3="Mayrhofen"
@@ -9096,7 +9096,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -9229,7 +9229,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hippach/Ramsau"
           address_2=""
           address_3=""
@@ -9332,7 +9332,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -9743,7 +9743,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -9864,7 +9864,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -9979,7 +9979,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -10217,7 +10217,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -10459,7 +10459,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -10697,7 +10697,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -10995,7 +10995,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -11245,7 +11245,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -11360,7 +11360,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -11569,7 +11569,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Zillergrundweg 568"
           address_2=""
           address_3="Mayrhofen"
@@ -11784,7 +11784,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -12025,7 +12025,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -12275,7 +12275,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -12513,7 +12513,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 388"
           address_2="Mayrhofen"
           address_3=""
@@ -12660,7 +12660,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="mayrhofen"
           address_2=""
           address_3=""
@@ -12769,7 +12769,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 657"
           address_2=""
           address_3=""
@@ -12902,7 +12902,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hochstegen 835,"
           address_2=""
           address_3="Mayrhofen"
@@ -13059,7 +13059,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -13286,7 +13286,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schormis 100"
           address_2="6283"
           address_3="Schwendau"
@@ -13469,7 +13469,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Wiesl,"
           address_2=""
           address_3=""
@@ -13582,7 +13582,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Ahornstrasse 854"
           address_2=""
           address_3="Mayrhofen"
@@ -13741,7 +13741,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Pension Rauchenwalderhof"
           address_2="Rauchenwald"
           address_3="Mayrhofen"
@@ -13912,7 +13912,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Sporthotel Strass"
           address_2="Hauptstrasse"
           address_3="Mayrhofen  Zillertal - Tirol"
@@ -14209,7 +14209,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall,"
           address_2=""
           address_3=""
@@ -14328,7 +14328,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -14553,7 +14553,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -14672,7 +14672,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -14897,7 +14897,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -15122,7 +15122,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -15241,7 +15241,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -15360,7 +15360,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Einfahrt Mitte 432"
           address_2=""
           address_3="Mayrhofen"
@@ -15683,7 +15683,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 388"
           address_2=""
           address_3="Mayrhofen"
@@ -15796,7 +15796,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Haupstrasse 418"
           address_2=""
           address_3="Mayrhofen"
@@ -15939,7 +15939,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Edergasse 518"
           address_2=""
           address_3="Mayrhofen"
@@ -16049,7 +16049,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 53900,
@@ -16238,7 +16238,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Kumbichl 873d"
           address_2=""
           address_3="Mayrhofen"
@@ -16342,7 +16342,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 36900,
@@ -16656,7 +16656,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 414"
           address_2=""
           address_3="Mayrhofen"
@@ -16768,7 +16768,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 105"
           address_2=""
           address_3="Mayrhofen"
@@ -16919,7 +16919,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Central"
           address_2=""
           address_3=""
@@ -17005,7 +17005,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hippach/Ramsau"
           address_2=""
           address_3=""
@@ -17108,7 +17108,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall,"
           address_2=""
           address_3=""
@@ -17221,7 +17221,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Stillupklamm 826"
           address_2=""
           address_3="Mayrhofen Austria"
@@ -17402,7 +17402,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Waldfeldweg 636"
           address_2=""
           address_3=""
@@ -17535,7 +17535,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dursterstrasse 250"
           address_2="Zillertal - Tyrol"
           address_3="Mayrhofen"
@@ -17708,7 +17708,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 452"
           address_2=""
           address_3="Mayrhofen"
@@ -17871,7 +17871,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Tuxerstrasse 731"
           address_2="Osterreich"
           address_3="Mayrhofen"
@@ -18008,7 +18008,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstr. 455a"
           address_2=""
           address_3="Mayrhofen"
@@ -18151,7 +18151,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 44900,
@@ -18777,7 +18777,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Lindenstrasse 13a"
           address_2=""
           address_3=""
@@ -18868,7 +18868,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dorf 21"
           address_2=""
           address_3="Hippach"
@@ -18969,7 +18969,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dorf Haus 791"
           address_2=""
           address_3=""
@@ -19078,7 +19078,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 658"
           address_2=""
           address_3="Mayrhofen"
@@ -19168,7 +19168,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hochstegen 840"
           address_2=""
           address_3="Mayrhofen"
@@ -19314,7 +19314,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
         >
           Browse Accommodations
         </p>
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
           address_3="Mayrhofen"
@@ -19463,7 +19463,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
           }
           sort_order={0}
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -20104,7 +20104,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Ahornstrasse 850"
           address_2=""
           address_3="Mayrhofen"
@@ -20321,7 +20321,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -20778,7 +20778,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 126"
           address_2=""
           address_3="Mayrhofen"
@@ -20957,7 +20957,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau 17"
           address_2=""
           address_3="Mayrhofen"
@@ -21152,7 +21152,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Brandbergstrasse 352"
           address_2=""
           address_3="Mayrhofen"
@@ -21319,7 +21319,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Edenlehen 676"
           address_2=""
           address_3="Mayrhofen"
@@ -21514,7 +21514,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -21838,7 +21838,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 346"
           address_2=""
           address_3="Mayrhofen"
@@ -22005,7 +22005,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="breitlahneweg 285"
           address_2=""
           address_3="Mayrhofen"
@@ -22190,7 +22190,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Einfahrt Mitte 431"
           address_2=""
           address_3="Mayrhofen"
@@ -22303,7 +22303,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dornaustrasse 612"
           address_2=""
           address_3="Mayrhofen"
@@ -22502,7 +22502,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Tuxeurstrabe 722"
           address_2=""
           address_3="Mayrhofen"
@@ -22721,7 +22721,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Kumbichl 874"
           address_2=""
           address_3="Mayrhofen"
@@ -22854,7 +22854,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schwendaustrasse 197"
           address_2=""
           address_3="Osterreich, Mayrhofen"
@@ -23005,7 +23005,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 439"
           address_2="Zillertal"
           address_3="Mayrhofen"
@@ -23224,7 +23224,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -23519,7 +23519,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 400"
           address_2=""
           address_3="Mayrhofen"
@@ -23834,7 +23834,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="AM Marktplatz 202"
           address_2=""
           address_3="Mayrhofen"
@@ -24015,7 +24015,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schmiedwiese 170"
           address_2=""
           address_3="Mayrhofen"
@@ -24200,7 +24200,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
           address_3="Mayrhofen"
@@ -24355,7 +24355,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Lindenstrasse 40"
           address_2=""
           address_3=""
@@ -24464,7 +24464,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 70"
           address_2=""
           address_3="Mayrhofen"
@@ -24599,7 +24599,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 105"
           address_2=""
           address_3="Mayrhofen"
@@ -24782,7 +24782,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Linde Strasse 28"
           address_2=""
           address_3="6283 Schwendau"
@@ -24885,7 +24885,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 101"
           address_2=""
           address_3="Hollenzen"
@@ -25004,7 +25004,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 260"
           address_2=""
           address_3="Mayrhofen"
@@ -25107,7 +25107,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 371"
           address_2=""
           address_3="Mayrhofen"
@@ -25242,7 +25242,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schwendaustrasse 199"
           address_2=""
           address_3="Mayrhofen"
@@ -25379,7 +25379,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -25882,7 +25882,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 254"
           address_2="Osterreich"
           address_3="Mayrhofen"
@@ -26067,7 +26067,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Brandbergstrasse 353,"
           address_2=""
           address_3="Mayrhofen"
@@ -26274,7 +26274,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 40900,
@@ -26737,7 +26737,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 670"
           address_2=""
           address_3="Mayrhofen"
@@ -26942,7 +26942,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 470"
           address_2=""
           address_3=""
@@ -27287,7 +27287,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 279"
           address_2=""
           address_3="Mayrhofen"
@@ -27470,7 +27470,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 341"
           address_2=""
           address_3="Mayrhofen"
@@ -27657,7 +27657,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dursterstr. 220"
           address_2=""
           address_3="A-6290 Mayrhofen,"
@@ -27888,7 +27888,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 670"
           address_2=""
           address_3="Mayrhofen"
@@ -28063,7 +28063,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Am Marienbrunnen 346"
           address_2=""
           address_3="Mayrhofen"
@@ -28254,7 +28254,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Durst 279"
           address_2=""
           address_3="Mayrhofen"
@@ -28387,7 +28387,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -28520,7 +28520,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hippach/Ramsau"
           address_2=""
           address_3=""
@@ -28623,7 +28623,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -29034,7 +29034,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -29155,7 +29155,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -29270,7 +29270,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -29508,7 +29508,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -29750,7 +29750,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -29988,7 +29988,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 52400,
@@ -30286,7 +30286,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -30536,7 +30536,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -30651,7 +30651,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -30860,7 +30860,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Zillergrundweg 568"
           address_2=""
           address_3="Mayrhofen"
@@ -31075,7 +31075,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Mayrhofen"
           address_2=""
           address_3=""
@@ -31316,7 +31316,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -31566,7 +31566,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 30900,
@@ -31804,7 +31804,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 388"
           address_2="Mayrhofen"
           address_3=""
@@ -31951,7 +31951,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="mayrhofen"
           address_2=""
           address_3=""
@@ -32060,7 +32060,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 657"
           address_2=""
           address_3=""
@@ -32193,7 +32193,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hochstegen 835,"
           address_2=""
           address_3="Mayrhofen"
@@ -32350,7 +32350,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 42900,
@@ -32577,7 +32577,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Schormis 100"
           address_2="6283"
           address_3="Schwendau"
@@ -32760,7 +32760,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Wiesl,"
           address_2=""
           address_3=""
@@ -32873,7 +32873,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Ahornstrasse 854"
           address_2=""
           address_3="Mayrhofen"
@@ -33032,7 +33032,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Pension Rauchenwalderhof"
           address_2="Rauchenwald"
           address_3="Mayrhofen"
@@ -33203,7 +33203,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Sporthotel Strass"
           address_2="Hauptstrasse"
           address_3="Mayrhofen  Zillertal - Tirol"
@@ -33500,7 +33500,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall,"
           address_2=""
           address_3=""
@@ -33619,7 +33619,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -33844,7 +33844,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -33963,7 +33963,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -34188,7 +34188,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 41900,
@@ -34413,7 +34413,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -34532,7 +34532,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall, Hochstegen"
           address_2=""
           address_3=""
@@ -34651,7 +34651,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Einfahrt Mitte 432"
           address_2=""
           address_3="Mayrhofen"
@@ -34974,7 +34974,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Burgstall 388"
           address_2=""
           address_3="Mayrhofen"
@@ -35087,7 +35087,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Haupstrasse 418"
           address_2=""
           address_3="Mayrhofen"
@@ -35230,7 +35230,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Edergasse 518"
           address_2=""
           address_3="Mayrhofen"
@@ -35340,7 +35340,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 53900,
@@ -35529,7 +35529,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Kumbichl 873d"
           address_2=""
           address_3="Mayrhofen"
@@ -35633,7 +35633,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 36900,
@@ -35947,7 +35947,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 414"
           address_2=""
           address_3="Mayrhofen"
@@ -36059,7 +36059,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hollenzen 105"
           address_2=""
           address_3="Mayrhofen"
@@ -36210,7 +36210,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Central"
           address_2=""
           address_3=""
@@ -36296,7 +36296,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hippach/Ramsau"
           address_2=""
           address_3=""
@@ -36399,7 +36399,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Eckartau, Laubichl, Hollenzen, Burgstall,"
           address_2=""
           address_3=""
@@ -36512,7 +36512,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Stillupklamm 826"
           address_2=""
           address_3="Mayrhofen Austria"
@@ -36693,7 +36693,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Waldfeldweg 636"
           address_2=""
           address_3=""
@@ -36826,7 +36826,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dursterstrasse 250"
           address_2="Zillertal - Tyrol"
           address_3="Mayrhofen"
@@ -36999,7 +36999,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstrasse 452"
           address_2=""
           address_3="Mayrhofen"
@@ -37162,7 +37162,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Tuxerstrasse 731"
           address_2="Osterreich"
           address_3="Mayrhofen"
@@ -37299,7 +37299,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hauptstr. 455a"
           address_2=""
           address_3="Mayrhofen"
@@ -37442,7 +37442,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           accommodation_room_prices={
             Object {
               "max": 44900,
@@ -38068,7 +38068,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Lindenstrasse 13a"
           address_2=""
           address_3=""
@@ -38159,7 +38159,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dorf 21"
           address_2=""
           address_3="Hippach"
@@ -38260,7 +38260,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Dorf Haus 791"
           address_2=""
           address_3=""
@@ -38369,7 +38369,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Rauchenwald 658"
           address_2=""
           address_3="Mayrhofen"
@@ -38459,7 +38459,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
             }
           }
         />
-        <AccommodationItem
+        <withRouter(AccommodationItem)
           address_1="Hochstegen 840"
           address_2=""
           address_3="Mayrhofen"
