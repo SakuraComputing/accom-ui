@@ -3,6 +3,18 @@ import ReactHtmlParser from 'react-html-parser';
 
 export class AccommodationItem extends React.Component {
 
+    constructor(props){
+        super(props);
+        
+        this.displayRooms = this.displayRooms.bind();
+    }
+
+
+
+    displayRooms = () => {
+        this.props.history.push('/rooms');
+    };
+
     list(data) {
 
         if(!data) {
@@ -27,6 +39,7 @@ export class AccommodationItem extends React.Component {
                     { this.props.facilities ? this.list(this.props.facilities) : ''}
                     { this.props.children }
                 </ul>
+                <button className="button" onClick={this.displayRooms}>See our last available rooms ></button>
             </div>
         )
     }

@@ -7,6 +7,12 @@ exports[`Accomodation Item  Page should render accomodation item page correctly 
     Apart
   </ul>
   <ul />
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    See our last available rooms &gt;
+  </button>
 </div>
 `;
 
@@ -21,5 +27,11 @@ exports[`Accomodation Item  Page should render type if type exists 1`] = `
       bed
     </li>
   </ul>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    See our last available rooms &gt;
+  </button>
 </div>
 `;

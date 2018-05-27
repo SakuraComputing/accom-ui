@@ -5,12 +5,13 @@ import { AccommodationItem } from '../../components/AccommodationItem';
 
 describe('Accomodation Item  Page', () => {
 
-    let wrapper;
+    let wrapper, history;
 
     beforeEach(() => {
         const key = jest.fn();
         const accommodation = jest.fn();
-        wrapper = shallow(<AccommodationItem key={key} accomodation={accommodation}/>);
+        history = { push: jest.fn() };
+        wrapper = shallow(<AccommodationItem key={key} accomodation={accommodation} history={history}/>);
     });
     it('should render accomodation item page correctly',() => {
         wrapper.setProps({ type: { id: 1, name: 'Apart'}});
@@ -35,5 +36,15 @@ describe('Accomodation Item  Page', () => {
         const facilities = null;
         const ReturnData = wrapper.instance().list(facilities);
         expect(ReturnData).toBeNull;
-    })
+    });
+    it('should have a function called display rooms', () => {
+        it('should be a function', () => {
+            expect(typeof displayRooms).toEqual('function');
+        });
+    });
+
+    it('should redirect to the rooms page when the rooms button is clicked', () => {
+        wrapper.find('button').simulate('click');
+        expect(history.push).toHaveBeenLastCalledWith('/rooms');
+    });
 });

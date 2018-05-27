@@ -5,7 +5,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
   className="accommodations"
 >
   <div
-    className="container"
+    className="content-container"
   >
     <div
       className="row"
@@ -19296,7 +19296,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
   className="accommodations"
 >
   <div
-    className="container"
+    className="content-container"
   >
     <div
       className="row"

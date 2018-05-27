@@ -7,10 +7,6 @@ import data from '../../data/accommodation_data';
 
 export class Accommodations extends React.Component {
 
-    componentDidMount() {
-        // this.props.getAccommodations();
-    }
-
     render() {
 
         let accommodationItem;
@@ -25,7 +21,7 @@ export class Accommodations extends React.Component {
 
         return(
             <div className="accommodations">
-                <div className="container">
+                <div className="content-container">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="display-4 text-center">Accommodations</h1>
