@@ -20,7 +20,7 @@ export class Accommodations extends React.Component {
                 <AccommodationItem key={accommodation.name} {...accommodation}/>
             ))
         } else {
-            accommodationItem = <h4>No accommodations found....... </h4>
+            accommodationItem = <h4>No accommodations found.......</h4>
         }
 
         return(
