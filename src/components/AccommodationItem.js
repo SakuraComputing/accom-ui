@@ -5,7 +5,7 @@ export class AccommodationItem extends React.Component {
 
     constructor(props){
         super(props);
-        
+
         this.displayRooms = this.displayRooms.bind();
     }
 
