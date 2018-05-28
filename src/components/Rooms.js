@@ -11,8 +11,8 @@ export class Rooms extends React.Component {
         }
 
         return data.map((node, index) => {
-            return <li key ={ node.id } min_occupancy={ node.min_occupancy }>
-                {node.min_occupancy}
+            return <li key ={ node.id } min_occupancy={ node.label }>
+                {node.label}
             </li>
         })
     }
@@ -21,10 +21,8 @@ export class Rooms extends React.Component {
 
         let accommodation = data["accommodations"].filter(accommodation => accommodation.id === parseInt(this.props.match.params.id));
 
-
         const [ { rooms } ] = accommodation;
 
-        //
         let RoomItem;
 
         if(rooms.length > 0) {
@@ -39,9 +37,10 @@ export class Rooms extends React.Component {
         return (
             <div className="content-container">
                 <h2>Room</h2>
-                { this.props.rooms ? this.list(this.props.rooms) : ''}
                 {/*{ this.props.}*/}
                 {RoomItem}
+
+                { this.props.facilities ? this.list(this.props.facilites) : ''}
             </div>
         )
     }

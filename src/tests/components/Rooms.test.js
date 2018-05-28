@@ -7,4 +7,10 @@ describe('Rooms Page', () => {
       const wrapper = shallow(<Rooms/>);
       expect(wrapper).toMatchSnapshot()
    });
+    it('should have a function called list', () => {
+        it('should be a function', () => {
+            expect(typeof list).toEqual('function');
+        });
+    });
+
 });

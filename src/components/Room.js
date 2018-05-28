@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
+import Availability from '../../data/accommodation_availability_data';
 
 export class Room extends React.Component {
 
@@ -7,7 +8,6 @@ export class Room extends React.Component {
         super(props);
 
     }
-
 
     list(data) {
 
@@ -22,9 +22,18 @@ export class Room extends React.Component {
         })
     }
 
-    render() {
+    getRoomsAvailable(id) {
+        // console.log(Availability["rooms"]);
+        let availability = Availability["rooms"].find(room => room.id === this.props.id);
+        if(availability) {
+            const { available }  = availability;
+            return <span>Rooms available: {available}</span>
+        } else {
+            return null;
+        }
+    }
 
-        console.log(this.props);
+    render() {
 
         return (
             <div className="content-container">
@@ -45,6 +54,7 @@ export class Room extends React.Component {
                 <ul>
                     <h4>Today's Price</h4>
                 </ul>
+                { this.getRoomsAvailable(this.props.id) }
             </div>
         )
     }

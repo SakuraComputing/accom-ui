@@ -24,5 +24,10 @@ exports[`Room Page should render the form correctly 1`] = `
       Facilities
     </h4>
   </ul>
+  <ul>
+    <h4>
+      Today's Price
+    </h4>
+  </ul>
 </div>
 `;
