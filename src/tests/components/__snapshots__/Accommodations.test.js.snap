@@ -115,7 +115,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Garni Almhof - In Town - Central Mayrhofen"
+          key="65"
           location={
             Object {
               "id": 522,
@@ -272,7 +272,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Alpina - Zillertal Valley"
+          key="67"
           location={
             Object {
               "id": 541,
@@ -925,7 +925,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Brucke - In Town - Central Mayrhofen"
+          key="72"
           location={
             Object {
               "id": 548,
@@ -1110,7 +1110,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Christlwirt - Zillertal Valley"
+          key="73"
           location={
             Object {
               "id": 550,
@@ -1589,7 +1589,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Country Denggerhof  - Downtown - Mayrhofen Districts"
+          key="74"
           location={
             Object {
               "id": 552,
@@ -1784,7 +1784,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Eckartauerhof - Downtown - Mayrhofen Districts"
+          key="75"
           location={
             Object {
               "id": 553,
@@ -1965,7 +1965,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Edelweiss - In Town - Central Mayrhofen"
+          key="76"
           location={
             Object {
               "id": 554,
@@ -2146,7 +2146,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Edenlehen - In Town - Central Mayrhofen"
+          key="77"
           location={
             Object {
               "id": 555,
@@ -2355,7 +2355,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Eder Ferienanlag - Zillertal Valley"
+          key="78"
           location={
             Object {
               "id": 557,
@@ -2637,7 +2637,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Forsthaus zum Kramerwirt - In Town - Central Mayrhofen"
+          key="80"
           location={
             Object {
               "id": 562,
@@ -2822,7 +2822,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Garni Erler - In Town - Central Mayrhofen"
+          key="82"
           location={
             Object {
               "id": 556,
@@ -2949,7 +2949,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Garni Glockenstuhl - In Town - Central Mayrhofen"
+          key="83"
           location={
             Object {
               "id": 565,
@@ -3120,7 +3120,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hubers Boutique - In Town - Central Mayrhofen"
+          key="85"
           location={
             Object {
               "id": 547,
@@ -3339,7 +3339,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Jagerhof  - In Town - Central Mayrhofen"
+          key="86"
           location={
             Object {
               "id": 569,
@@ -3486,7 +3486,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Kumbichlhof Patriazia - In Town - Central Mayrhofen"
+          key="92"
           location={
             Object {
               "id": 578,
@@ -3623,7 +3623,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Landhaus Carla  - In Town - Central Mayrhofen"
+          key="94"
           location={
             Object {
               "id": 549,
@@ -3828,7 +3828,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Sporthotel Manni - In Town - Central Mayrhofen - 4* FAVOURITE"
+          key="96"
           location={
             Object {
               "id": 418,
@@ -4029,7 +4029,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Mountain and Soul LifeStyle Hotel - Zillertal Valley"
+          key="99"
           location={
             Object {
               "id": 422,
@@ -4326,7 +4326,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Neue Post   - In Town - Central Mayrhofen - 4* FAVOURITE"
+          key="100"
           location={
             Object {
               "id": 591,
@@ -4619,7 +4619,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Neuhaus - In Town - Central Mayrhofen"
+          key="101"
           location={
             Object {
               "id": 592,
@@ -4832,7 +4832,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Auf Der Wiese - Downtown - Mayrhofen Districts"
+          key="104"
           location={
             Object {
               "id": 543,
@@ -5001,7 +5001,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Birkenhof - In Town - Central Mayrhofen"
+          key="105"
           location={
             Object {
               "id": 546,
@@ -5124,7 +5124,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Gasthaus Hauser (Alpina) - Zillertal Valley"
+          key="107"
           location={
             Object {
               "id": 542,
@@ -5245,7 +5245,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Gastehaus Pendl - Downtown - Mayrhofen Districts"
+          key="108"
           location={
             Object {
               "id": 596,
@@ -5428,7 +5428,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Haus Wiesengrund - Downtown - Mayrhofen Districts"
+          key="110"
           location={
             Object {
               "id": 625,
@@ -5545,7 +5545,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Franz Josef  - Zillertal Valley"
+          key="112"
           location={
             Object {
               "id": 567,
@@ -5650,7 +5650,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Honserhof - Downtown - Mayrhofen Districts"
+          key="113"
           location={
             Object {
               "id": 568,
@@ -5753,7 +5753,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Kassnerhof - In Town - Central Mayrhofen"
+          key="114"
           location={
             Object {
               "id": 571,
@@ -5888,7 +5888,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Kreidl - Downtown - Mayrhofen Districts"
+          key="115"
           location={
             Object {
               "id": 575,
@@ -6025,7 +6025,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Rosenhof - In Town - Central Mayrhofen"
+          key="125"
           location={
             Object {
               "id": 606,
@@ -6214,7 +6214,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Ramsauerhof - Zillertal Valley"
+          key="134"
           location={
             Object {
               "id": 422,
@@ -6699,7 +6699,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Robert - In Town - Central Mayrhofen"
+          key="136"
           location={
             Object {
               "id": 604,
@@ -6892,7 +6892,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Rose - In Town - Central Mayrhofen"
+          key="137"
           location={
             Object {
               "id": 605,
@@ -7069,7 +7069,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Schwarzer Adler - Zillertal Valley"
+          key="140"
           location={
             Object {
               "id": 611,
@@ -7574,7 +7574,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel St Georg - In Town - Central Mayrhofen"
+          key="142"
           location={
             Object {
               "id": 615,
@@ -7751,7 +7751,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Strass and Sporthotel - Central Mayrhofen - 4* FAVOURITE"
+          key="143"
           location={
             Object {
               "id": 616,
@@ -8102,7 +8102,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Strolz - In Town - Central Mayrhofen"
+          key="144"
           location={
             Object {
               "id": 617,
@@ -8261,7 +8261,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Zillertalerhof - In Town - Central Mayrhofen"
+          key="149"
           location={
             Object {
               "id": 630,
@@ -8478,7 +8478,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Berghof - In Town - Central Mayrhofen FAVOURITE"
+          key="153"
           location={
             Object {
               "id": 644,
@@ -8681,7 +8681,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="St Georg Santa Teresa - In Town - Central Mayrhofen"
+          key="154"
           location={
             Object {
               "id": 1096,
@@ -8886,7 +8886,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Alpenhotel Kramerwirt - In Town - Central Mayrhofen"
+          key="89"
           location={
             Object {
               "id": 1090,
@@ -9033,7 +9033,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Strolz Dep - In Town - Central Mayrhofen"
+          key="155"
           location={
             Object {
               "id": 617,
@@ -9166,7 +9166,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="3 Bed Apartment - In Town - Central Mayrhofen"
+          key="157"
           location={
             Object {
               "id": 418,
@@ -9283,7 +9283,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="3 Bed Apartment - Zillertal Valley"
+          key="164"
           location={
             Object {
               "id": 645,
@@ -9404,7 +9404,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="4 Bed Apartment - In Town - Central Mayrhofen"
+          key="158"
           location={
             Object {
               "id": 418,
@@ -9801,7 +9801,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="5 Bed Apartment - In Town - Central Mayrhofen"
+          key="159"
           location={
             Object {
               "id": 418,
@@ -9916,7 +9916,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="6 Bed Apartment - In Town - Central Mayrhofen"
+          key="160"
           location={
             Object {
               "id": 418,
@@ -10035,7 +10035,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="6 Bed Apartment - Zillertal Valley"
+          key="167"
           location={
             Object {
               "id": 645,
@@ -10277,7 +10277,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="7 Bed Apartment - In Town - Central Mayrhofen"
+          key="161"
           location={
             Object {
               "id": 418,
@@ -10515,7 +10515,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="7 Bed Apartment  - Zillertal Valley"
+          key="168"
           location={
             Object {
               "id": 645,
@@ -10799,7 +10799,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="8 Bed Apartment - In Town - Central Mayrhofen"
+          key="162"
           location={
             Object {
               "id": 418,
@@ -11063,7 +11063,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="8 Bed Apartment  - Zillertal Valley"
+          key="169"
           location={
             Object {
               "id": 645,
@@ -11297,7 +11297,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="9 Bed Apartment - In Town - Central Mayrhofen"
+          key="163"
           location={
             Object {
               "id": 418,
@@ -11422,7 +11422,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="9 Bed Apartment  - Zillertal Valley"
+          key="170"
           location={
             Object {
               "id": 645,
@@ -11651,7 +11651,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Landhaus Roscher - In Town - Central Mayrhofen"
+          key="172"
           location={
             Object {
               "id": 418,
@@ -11892,7 +11892,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Villa and Aparthotel Strass - Central Mayrhofen"
+          key="173"
           location={
             Object {
               "id": 616,
@@ -12093,7 +12093,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="4 Bed Apartment - Zillertal Valley"
+          key="165"
           location={
             Object {
               "id": 645,
@@ -12331,7 +12331,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="5 Bed Apartment - Zillertal Valley  "
+          key="166"
           location={
             Object {
               "id": 645,
@@ -12583,7 +12583,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gasthof Zillertal - In Town - Central Mayrhofen"
+          key="210"
           location={
             Object {
               "id": 810,
@@ -12720,7 +12720,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="10 Bed Apartment - In Town - Central Mayrhofen"
+          key="238"
           location={
             Object {
               "id": 418,
@@ -12825,7 +12825,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Guesthouse Bruggerhof"
+          key="257"
           location={
             Object {
               "id": 946,
@@ -12996,7 +12996,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Oblasser Ferienhof - Mayrhofen Districts"
+          key="258"
           location={
             Object {
               "id": 1107,
@@ -13139,7 +13139,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Life & Spa Hotel Stefanie - Zillertal Valley"
+          key="263"
           location={
             Object {
               "id": 1105,
@@ -13378,7 +13378,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Kiendlerhof  - Out of Town - Zillertal Valley"
+          key="264"
           location={
             Object {
               "id": 420,
@@ -13519,7 +13519,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Larchenheim"
+          key="268"
           location={
             Object {
               "id": 1104,
@@ -13664,7 +13664,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Perauer - In Town - Central Mayrhofen"
+          key="272"
           location={
             Object {
               "id": 597,
@@ -13821,7 +13821,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Rauchenwalderhof - In Town - Central Mayrhofen"
+          key="275"
           location={
             Object {
               "id": 602,
@@ -14006,7 +14006,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Garni Strass - In Town - Central Mayrhofen"
+          key="276"
           location={
             Object {
               "id": 616,
@@ -14279,7 +14279,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="3 Bed Apartment -Downtown - Mayrhofen Districts"
+          key="310"
           location={
             Object {
               "id": 1126,
@@ -14406,7 +14406,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="4 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="305"
           location={
             Object {
               "id": 1126,
@@ -14623,7 +14623,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="5 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="306"
           location={
             Object {
               "id": 1126,
@@ -14750,7 +14750,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="6 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="307"
           location={
             Object {
               "id": 1126,
@@ -14975,7 +14975,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="7 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="308"
           location={
             Object {
               "id": 1126,
@@ -15192,7 +15192,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="8 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="309"
           location={
             Object {
               "id": 1126,
@@ -15311,7 +15311,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="9 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="311"
           location={
             Object {
               "id": 1126,
@@ -15536,7 +15536,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Elisabeth Hotel - In Town - Central Mayrhofen"
+          key="314"
           location={
             Object {
               "id": 418,
@@ -15747,7 +15747,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Solo Bombing - Gasthof Zillertal - In Town - Central Mayrhofen"
+          key="371"
           location={
             Object {
               "id": 810,
@@ -15862,7 +15862,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key=" Hypo Appartements - In Town - Central Mayrhofen"
+          key="506"
           location={
             Object {
               "id": 418,
@@ -15986,7 +15986,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gastehaus Huber"
+          key="532"
           location={
             Object {
               "id": 418,
@@ -16098,7 +16098,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Waldhaus Lechner - Apartments"
+          key="558"
           location={
             Object {
               "id": 418,
@@ -16279,7 +16279,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Huber Chalet (Alpen) - Apartments"
+          key="588"
           location={
             Object {
               "id": 418,
@@ -16397,7 +16397,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Landhaus Daum Andrea - Apartments"
+          key="599"
           location={
             Object {
               "id": 421,
@@ -16691,7 +16691,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Kostner - Apartments"
+          key="550"
           location={
             Object {
               "id": 418,
@@ -16856,7 +16856,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Haus Wiesengrund  (Shared Facilities) - Mayrhofen Districts"
+          key="719"
           location={
             Object {
               "id": 625,
@@ -16956,7 +16956,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
           }
           id={721}
           images={Array []}
-          key="2 Bed Apartment - In Town - Central Mayrhofen"
+          key="721"
           location={
             Object {
               "id": 418,
@@ -17059,7 +17059,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="2 Bed Apartment - Zillertal Valley "
+          key="723"
           location={
             Object {
               "id": 645,
@@ -17172,7 +17172,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="2 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="722"
           location={
             Object {
               "id": 1126,
@@ -17325,7 +17325,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gutshof - Mayrhofen Districts"
+          key="244"
           location={
             Object {
               "id": 1110,
@@ -17486,7 +17486,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Landhaus zum Griena - In Town - Central Mayrhofen"
+          key="116"
           location={
             Object {
               "id": 580,
@@ -17645,7 +17645,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Aparthotel Veronika - In Town - Central Mayrhofen"
+          key="70"
           location={
             Object {
               "id": 619,
@@ -17808,7 +17808,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Garni Jennewein - In Town - Central Mayrhofen"
+          key="87"
           location={
             Object {
               "id": 570,
@@ -17959,7 +17959,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Hotel Scheulinghof - In Town - Central Mayrhofen"
+          key="138"
           location={
             Object {
               "id": 418,
@@ -18088,7 +18088,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Apparthaus Alpina - In Town - Central Mayrhofen"
+          key="926"
           location={
             Object {
               "id": 418,
@@ -18182,7 +18182,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gasthof Hochsteg - Zillertal Valley"
+          key="1031"
           location={
             Object {
               "id": 5982,
@@ -18819,7 +18819,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gasthof Weinstadl - Zillertal Valley"
+          key="1032"
           location={
             Object {
               "id": 5982,
@@ -18920,7 +18920,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Garberwirt - Zillertal Valley"
+          key="266"
           location={
             Object {
               "id": 5982,
@@ -19029,7 +19029,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Gästehaus zum Gachtna - Down Town"
+          key="1016"
           location={
             Object {
               "id": 1126,
@@ -19119,7 +19119,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Rauchenwalderhof - Apartment"
+          key="1092"
           location={
             Object {
               "id": 436,
@@ -19236,7 +19236,7 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
               },
             ]
           }
-          key="Pension Ferienhof Widner  - Mayrhofen Districts"
+          key="106"
           location={
             Object {
               "id": 624,
@@ -19406,7 +19406,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Garni Almhof - In Town - Central Mayrhofen"
+          key="65"
           location={
             Object {
               "id": 522,
@@ -19563,7 +19563,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Alpina - Zillertal Valley"
+          key="67"
           location={
             Object {
               "id": 541,
@@ -20216,7 +20216,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Brucke - In Town - Central Mayrhofen"
+          key="72"
           location={
             Object {
               "id": 548,
@@ -20401,7 +20401,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Christlwirt - Zillertal Valley"
+          key="73"
           location={
             Object {
               "id": 550,
@@ -20880,7 +20880,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Country Denggerhof  - Downtown - Mayrhofen Districts"
+          key="74"
           location={
             Object {
               "id": 552,
@@ -21075,7 +21075,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Eckartauerhof - Downtown - Mayrhofen Districts"
+          key="75"
           location={
             Object {
               "id": 553,
@@ -21256,7 +21256,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Edelweiss - In Town - Central Mayrhofen"
+          key="76"
           location={
             Object {
               "id": 554,
@@ -21437,7 +21437,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Edenlehen - In Town - Central Mayrhofen"
+          key="77"
           location={
             Object {
               "id": 555,
@@ -21646,7 +21646,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Eder Ferienanlag - Zillertal Valley"
+          key="78"
           location={
             Object {
               "id": 557,
@@ -21928,7 +21928,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Forsthaus zum Kramerwirt - In Town - Central Mayrhofen"
+          key="80"
           location={
             Object {
               "id": 562,
@@ -22113,7 +22113,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Garni Erler - In Town - Central Mayrhofen"
+          key="82"
           location={
             Object {
               "id": 556,
@@ -22240,7 +22240,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Garni Glockenstuhl - In Town - Central Mayrhofen"
+          key="83"
           location={
             Object {
               "id": 565,
@@ -22411,7 +22411,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hubers Boutique - In Town - Central Mayrhofen"
+          key="85"
           location={
             Object {
               "id": 547,
@@ -22630,7 +22630,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Jagerhof  - In Town - Central Mayrhofen"
+          key="86"
           location={
             Object {
               "id": 569,
@@ -22777,7 +22777,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Kumbichlhof Patriazia - In Town - Central Mayrhofen"
+          key="92"
           location={
             Object {
               "id": 578,
@@ -22914,7 +22914,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Landhaus Carla  - In Town - Central Mayrhofen"
+          key="94"
           location={
             Object {
               "id": 549,
@@ -23119,7 +23119,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Sporthotel Manni - In Town - Central Mayrhofen - 4* FAVOURITE"
+          key="96"
           location={
             Object {
               "id": 418,
@@ -23320,7 +23320,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Mountain and Soul LifeStyle Hotel - Zillertal Valley"
+          key="99"
           location={
             Object {
               "id": 422,
@@ -23617,7 +23617,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Neue Post   - In Town - Central Mayrhofen - 4* FAVOURITE"
+          key="100"
           location={
             Object {
               "id": 591,
@@ -23910,7 +23910,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Neuhaus - In Town - Central Mayrhofen"
+          key="101"
           location={
             Object {
               "id": 592,
@@ -24123,7 +24123,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Auf Der Wiese - Downtown - Mayrhofen Districts"
+          key="104"
           location={
             Object {
               "id": 543,
@@ -24292,7 +24292,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Birkenhof - In Town - Central Mayrhofen"
+          key="105"
           location={
             Object {
               "id": 546,
@@ -24415,7 +24415,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Gasthaus Hauser (Alpina) - Zillertal Valley"
+          key="107"
           location={
             Object {
               "id": 542,
@@ -24536,7 +24536,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Gastehaus Pendl - Downtown - Mayrhofen Districts"
+          key="108"
           location={
             Object {
               "id": 596,
@@ -24719,7 +24719,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Haus Wiesengrund - Downtown - Mayrhofen Districts"
+          key="110"
           location={
             Object {
               "id": 625,
@@ -24836,7 +24836,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Franz Josef  - Zillertal Valley"
+          key="112"
           location={
             Object {
               "id": 567,
@@ -24941,7 +24941,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Honserhof - Downtown - Mayrhofen Districts"
+          key="113"
           location={
             Object {
               "id": 568,
@@ -25044,7 +25044,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Kassnerhof - In Town - Central Mayrhofen"
+          key="114"
           location={
             Object {
               "id": 571,
@@ -25179,7 +25179,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Kreidl - Downtown - Mayrhofen Districts"
+          key="115"
           location={
             Object {
               "id": 575,
@@ -25316,7 +25316,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Rosenhof - In Town - Central Mayrhofen"
+          key="125"
           location={
             Object {
               "id": 606,
@@ -25505,7 +25505,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Ramsauerhof - Zillertal Valley"
+          key="134"
           location={
             Object {
               "id": 422,
@@ -25990,7 +25990,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Robert - In Town - Central Mayrhofen"
+          key="136"
           location={
             Object {
               "id": 604,
@@ -26183,7 +26183,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Rose - In Town - Central Mayrhofen"
+          key="137"
           location={
             Object {
               "id": 605,
@@ -26360,7 +26360,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Schwarzer Adler - Zillertal Valley"
+          key="140"
           location={
             Object {
               "id": 611,
@@ -26865,7 +26865,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel St Georg - In Town - Central Mayrhofen"
+          key="142"
           location={
             Object {
               "id": 615,
@@ -27042,7 +27042,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Strass and Sporthotel - Central Mayrhofen - 4* FAVOURITE"
+          key="143"
           location={
             Object {
               "id": 616,
@@ -27393,7 +27393,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Strolz - In Town - Central Mayrhofen"
+          key="144"
           location={
             Object {
               "id": 617,
@@ -27552,7 +27552,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Zillertalerhof - In Town - Central Mayrhofen"
+          key="149"
           location={
             Object {
               "id": 630,
@@ -27769,7 +27769,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Berghof - In Town - Central Mayrhofen FAVOURITE"
+          key="153"
           location={
             Object {
               "id": 644,
@@ -27972,7 +27972,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="St Georg Santa Teresa - In Town - Central Mayrhofen"
+          key="154"
           location={
             Object {
               "id": 1096,
@@ -28177,7 +28177,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Alpenhotel Kramerwirt - In Town - Central Mayrhofen"
+          key="89"
           location={
             Object {
               "id": 1090,
@@ -28324,7 +28324,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Strolz Dep - In Town - Central Mayrhofen"
+          key="155"
           location={
             Object {
               "id": 617,
@@ -28457,7 +28457,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="3 Bed Apartment - In Town - Central Mayrhofen"
+          key="157"
           location={
             Object {
               "id": 418,
@@ -28574,7 +28574,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="3 Bed Apartment - Zillertal Valley"
+          key="164"
           location={
             Object {
               "id": 645,
@@ -28695,7 +28695,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="4 Bed Apartment - In Town - Central Mayrhofen"
+          key="158"
           location={
             Object {
               "id": 418,
@@ -29092,7 +29092,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="5 Bed Apartment - In Town - Central Mayrhofen"
+          key="159"
           location={
             Object {
               "id": 418,
@@ -29207,7 +29207,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="6 Bed Apartment - In Town - Central Mayrhofen"
+          key="160"
           location={
             Object {
               "id": 418,
@@ -29326,7 +29326,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="6 Bed Apartment - Zillertal Valley"
+          key="167"
           location={
             Object {
               "id": 645,
@@ -29568,7 +29568,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="7 Bed Apartment - In Town - Central Mayrhofen"
+          key="161"
           location={
             Object {
               "id": 418,
@@ -29806,7 +29806,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="7 Bed Apartment  - Zillertal Valley"
+          key="168"
           location={
             Object {
               "id": 645,
@@ -30090,7 +30090,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="8 Bed Apartment - In Town - Central Mayrhofen"
+          key="162"
           location={
             Object {
               "id": 418,
@@ -30354,7 +30354,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="8 Bed Apartment  - Zillertal Valley"
+          key="169"
           location={
             Object {
               "id": 645,
@@ -30588,7 +30588,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="9 Bed Apartment - In Town - Central Mayrhofen"
+          key="163"
           location={
             Object {
               "id": 418,
@@ -30713,7 +30713,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="9 Bed Apartment  - Zillertal Valley"
+          key="170"
           location={
             Object {
               "id": 645,
@@ -30942,7 +30942,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Landhaus Roscher - In Town - Central Mayrhofen"
+          key="172"
           location={
             Object {
               "id": 418,
@@ -31183,7 +31183,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Villa and Aparthotel Strass - Central Mayrhofen"
+          key="173"
           location={
             Object {
               "id": 616,
@@ -31384,7 +31384,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="4 Bed Apartment - Zillertal Valley"
+          key="165"
           location={
             Object {
               "id": 645,
@@ -31622,7 +31622,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="5 Bed Apartment - Zillertal Valley  "
+          key="166"
           location={
             Object {
               "id": 645,
@@ -31874,7 +31874,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gasthof Zillertal - In Town - Central Mayrhofen"
+          key="210"
           location={
             Object {
               "id": 810,
@@ -32011,7 +32011,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="10 Bed Apartment - In Town - Central Mayrhofen"
+          key="238"
           location={
             Object {
               "id": 418,
@@ -32116,7 +32116,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Guesthouse Bruggerhof"
+          key="257"
           location={
             Object {
               "id": 946,
@@ -32287,7 +32287,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Oblasser Ferienhof - Mayrhofen Districts"
+          key="258"
           location={
             Object {
               "id": 1107,
@@ -32430,7 +32430,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Life & Spa Hotel Stefanie - Zillertal Valley"
+          key="263"
           location={
             Object {
               "id": 1105,
@@ -32669,7 +32669,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Kiendlerhof  - Out of Town - Zillertal Valley"
+          key="264"
           location={
             Object {
               "id": 420,
@@ -32810,7 +32810,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Larchenheim"
+          key="268"
           location={
             Object {
               "id": 1104,
@@ -32955,7 +32955,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Perauer - In Town - Central Mayrhofen"
+          key="272"
           location={
             Object {
               "id": 597,
@@ -33112,7 +33112,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Rauchenwalderhof - In Town - Central Mayrhofen"
+          key="275"
           location={
             Object {
               "id": 602,
@@ -33297,7 +33297,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Garni Strass - In Town - Central Mayrhofen"
+          key="276"
           location={
             Object {
               "id": 616,
@@ -33570,7 +33570,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="3 Bed Apartment -Downtown - Mayrhofen Districts"
+          key="310"
           location={
             Object {
               "id": 1126,
@@ -33697,7 +33697,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="4 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="305"
           location={
             Object {
               "id": 1126,
@@ -33914,7 +33914,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="5 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="306"
           location={
             Object {
               "id": 1126,
@@ -34041,7 +34041,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="6 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="307"
           location={
             Object {
               "id": 1126,
@@ -34266,7 +34266,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="7 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="308"
           location={
             Object {
               "id": 1126,
@@ -34483,7 +34483,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="8 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="309"
           location={
             Object {
               "id": 1126,
@@ -34602,7 +34602,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="9 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="311"
           location={
             Object {
               "id": 1126,
@@ -34827,7 +34827,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Elisabeth Hotel - In Town - Central Mayrhofen"
+          key="314"
           location={
             Object {
               "id": 418,
@@ -35038,7 +35038,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Solo Bombing - Gasthof Zillertal - In Town - Central Mayrhofen"
+          key="371"
           location={
             Object {
               "id": 810,
@@ -35153,7 +35153,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key=" Hypo Appartements - In Town - Central Mayrhofen"
+          key="506"
           location={
             Object {
               "id": 418,
@@ -35277,7 +35277,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gastehaus Huber"
+          key="532"
           location={
             Object {
               "id": 418,
@@ -35389,7 +35389,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Waldhaus Lechner - Apartments"
+          key="558"
           location={
             Object {
               "id": 418,
@@ -35570,7 +35570,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Huber Chalet (Alpen) - Apartments"
+          key="588"
           location={
             Object {
               "id": 418,
@@ -35688,7 +35688,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Landhaus Daum Andrea - Apartments"
+          key="599"
           location={
             Object {
               "id": 421,
@@ -35982,7 +35982,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Kostner - Apartments"
+          key="550"
           location={
             Object {
               "id": 418,
@@ -36147,7 +36147,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Haus Wiesengrund  (Shared Facilities) - Mayrhofen Districts"
+          key="719"
           location={
             Object {
               "id": 625,
@@ -36247,7 +36247,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
           }
           id={721}
           images={Array []}
-          key="2 Bed Apartment - In Town - Central Mayrhofen"
+          key="721"
           location={
             Object {
               "id": 418,
@@ -36350,7 +36350,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="2 Bed Apartment - Zillertal Valley "
+          key="723"
           location={
             Object {
               "id": 645,
@@ -36463,7 +36463,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="2 Bed Apartment - Downtown - Mayrhofen Districts"
+          key="722"
           location={
             Object {
               "id": 1126,
@@ -36616,7 +36616,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gutshof - Mayrhofen Districts"
+          key="244"
           location={
             Object {
               "id": 1110,
@@ -36777,7 +36777,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Landhaus zum Griena - In Town - Central Mayrhofen"
+          key="116"
           location={
             Object {
               "id": 580,
@@ -36936,7 +36936,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Aparthotel Veronika - In Town - Central Mayrhofen"
+          key="70"
           location={
             Object {
               "id": 619,
@@ -37099,7 +37099,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Garni Jennewein - In Town - Central Mayrhofen"
+          key="87"
           location={
             Object {
               "id": 570,
@@ -37250,7 +37250,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Hotel Scheulinghof - In Town - Central Mayrhofen"
+          key="138"
           location={
             Object {
               "id": 418,
@@ -37379,7 +37379,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Apparthaus Alpina - In Town - Central Mayrhofen"
+          key="926"
           location={
             Object {
               "id": 418,
@@ -37473,7 +37473,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gasthof Hochsteg - Zillertal Valley"
+          key="1031"
           location={
             Object {
               "id": 5982,
@@ -38110,7 +38110,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gasthof Weinstadl - Zillertal Valley"
+          key="1032"
           location={
             Object {
               "id": 5982,
@@ -38211,7 +38211,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Garberwirt - Zillertal Valley"
+          key="266"
           location={
             Object {
               "id": 5982,
@@ -38320,7 +38320,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Gästehaus zum Gachtna - Down Town"
+          key="1016"
           location={
             Object {
               "id": 1126,
@@ -38410,7 +38410,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Rauchenwalderhof - Apartment"
+          key="1092"
           location={
             Object {
               "id": 436,
@@ -38527,7 +38527,7 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
               },
             ]
           }
-          key="Pension Ferienhof Widner  - Mayrhofen Districts"
+          key="106"
           location={
             Object {
               "id": 624,

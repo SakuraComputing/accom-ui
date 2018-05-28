@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Room Page should render the form correctly 1`] = `
+<div
+  className="content-container"
+>
+  <h4>
+    Room Name
+  </h4>
+  <h4>
+    Room Type
+  </h4>
+  <h4>
+    Occupancy
+  </h4>
+  <li>
+    Min: 
+  </li>
+  <h4>
+    Description
+  </h4>
+  <ul>
+    <h4>
+      Facilities
+    </h4>
+  </ul>
+</div>
+`;

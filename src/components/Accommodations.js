@@ -13,7 +13,7 @@ export class Accommodations extends React.Component {
 
         if(data.accommodations.length > 0) {
             accommodationItem = data.accommodations.map(accommodation => (
-                <AccommodationItem key={accommodation.name} {...accommodation}/>
+                <AccommodationItem key={accommodation.id} {...accommodation}/>
             ))
         } else {
             accommodationItem = <h4>No accommodations found.......</h4>
