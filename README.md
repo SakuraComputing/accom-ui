@@ -36,7 +36,7 @@ yarn install
 
 ##Testing
 
-To run the unit tests run the following
+To run the unit tests run the following. (not full coverage as this is a prototype)
 
 ```aidl
 yarn run test
