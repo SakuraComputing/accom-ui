@@ -1,6 +1,9 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import Availability from '../../data/accommodation_availability_data';
+import AccomData from '../../data/accommodation_data';
+
 
 export class Room extends React.Component {
 
@@ -23,7 +26,6 @@ export class Room extends React.Component {
     }
 
     getRoomsAvailable(id) {
-        // console.log(Availability["rooms"]);
         let availability = Availability["rooms"].find(room => room.id === this.props.id);
         if(availability) {
             const { available }  = availability;
@@ -34,6 +36,12 @@ export class Room extends React.Component {
     }
 
     render() {
+
+        const { supplement_price }   = this.props;
+
+        if(supplement_price) {
+            const { price: { price }} = supplement_price;
+        }
 
         return (
             <div className="content-container">
@@ -53,6 +61,7 @@ export class Room extends React.Component {
                 </ul>
                 <ul>
                     <h4>Today's Price</h4>
+                    { supplement_price ? supplement_price.price.price : '' }
                 </ul>
                 { this.getRoomsAvailable(this.props.id) }
             </div>
@@ -60,4 +69,4 @@ export class Room extends React.Component {
     }
 };
 
-export default Room;
+export default withRouter(Room);
