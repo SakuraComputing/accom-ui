@@ -1,9 +1,6 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import Availability from '../../data/accommodation_availability_data';
-import AccomData from '../../data/accommodation_data';
-
 
 export class Room extends React.Component {
 
@@ -25,7 +22,7 @@ export class Room extends React.Component {
         })
     }
 
-    getRoomsAvailable(id) {
+    getRoomsAvailable() {
         let availability = Availability["rooms"].find(room => room.id === this.props.id);
         if(availability) {
             const { available }  = availability;
@@ -35,14 +32,22 @@ export class Room extends React.Component {
         }
     }
 
-    render() {
-
+    getprices() {
         const { supplement_price }   = this.props;
 
         if(supplement_price) {
             const { price: { price }} = supplement_price;
+            return <ul>
+                <h4>Today's Price</h4>
+                { supplement_price ? supplement_price.price.price : '' }
+            </ul>
+        } else {
+            return null;
         }
+    }
 
+    render() {
+        
         return (
             <div className="content-container">
                 <h4>Room Name</h4>
@@ -59,14 +64,11 @@ export class Room extends React.Component {
                     { this.props.facilities ? this.list(this.props.facilities, 'label') : ''}
                     { this.props.children }
                 </ul>
-                <ul>
-                    <h4>Today's Price</h4>
-                    { supplement_price ? supplement_price.price.price : '' }
-                </ul>
-                { this.getRoomsAvailable(this.props.id) }
+                { this.getRoomsAvailable() }
+                { this.getprices()}
             </div>
         )
     }
 };
 
-export default withRouter(Room);
+export default Room;
