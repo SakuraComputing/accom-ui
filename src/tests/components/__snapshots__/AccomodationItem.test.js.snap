@@ -3,12 +3,14 @@
 exports[`Accomodation Item  Page should render accomodation item page correctly 1`] = `
 <div>
   <h2 />
-  <h4>
-    Accomodation Type
-  </h4>
-  <ul>
-    Apart
-  </ul>
+  <div>
+    <h4>
+      Accomodation Type
+    </h4>
+    <ul>
+      Apart
+    </ul>
+  </div>
   <ul>
     <h4>
       Facilities
@@ -26,9 +28,6 @@ exports[`Accomodation Item  Page should render accomodation item page correctly 
 exports[`Accomodation Item  Page should render type if type exists 1`] = `
 <div>
   <h2 />
-  <h4>
-    Accomodation Type
-  </h4>
   <ul>
     <h4>
       Facilities

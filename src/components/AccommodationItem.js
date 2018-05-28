@@ -29,9 +29,6 @@ export class AccommodationItem extends React.Component {
 
     render() {
 
-        console.log(this.props.id);
-        console.log(this.props.name);
-
         return (
             <div>
                 <h2>{this.props.name}</h2>
