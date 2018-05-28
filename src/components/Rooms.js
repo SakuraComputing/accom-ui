@@ -18,7 +18,8 @@ export class Rooms extends React.Component {
     getRooms() {
         let accommodation = data["accommodations"].filter(accommodation => accommodation.id === parseInt(this.props.match.params.id));
 
-        const [ { rooms } ] = accommodation;
+        const [ { rooms, name } ] = accommodation;
+        console.log(name);
 
         let RoomItem;
 
@@ -32,7 +33,9 @@ export class Rooms extends React.Component {
     }
 
     render() {
+
         return (
+
             <div className="content-container">
                 <h2>Rooms</h2>
                 {this.getRooms()}

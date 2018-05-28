@@ -50,3 +50,7 @@ yarn run dev-server
 localhost:8080
 ```
 
+###Prototype
+
+As this is a prototype I have not built in redux to it,It's there as a guide that it should be used on the actual application.
+

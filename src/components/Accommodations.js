@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import AccommodationItem from'./AccommodationItem';
 import { getAccommodations } from '../actions/accommodations';
 import data from '../../data/accommodation_data';
@@ -33,10 +32,6 @@ export class Accommodations extends React.Component {
         )
     }
 }
-
-Accommodations.propTypes = {
-    accommodation: PropTypes.object.isRequired
-};
 
 const mapStateToProps = (state) => ({
     accommodation: state.accommodation

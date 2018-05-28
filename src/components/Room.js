@@ -61,7 +61,7 @@ export class Room extends React.Component {
                     </div>
                     <div>
                         <th>Occupancy</th>
-                        <li><span>{this.props.occupancy} people </span>(Minimum: {this.props.min_occupancy})</li>
+                        <li><span>{this.props.occupancy} pers. </span>(Minimum: {this.props.min_occupancy})</li>
                     </div>
                     <div>
                         {this.props.type ? <div><h4>Accommodation Type</h4><ul>{this.props.type.name}</ul></div> : <div></div>}
@@ -76,7 +76,6 @@ export class Room extends React.Component {
                 <div className="list-header">
                     <th>Facilities</th>
                     { this.props.facilities ? this.list(this.props.facilities) : ''}
-                    { this.props.children }
                 </div>
                 <div className="room-desc">
                     {ReactHtmlParser(this.props.description)}

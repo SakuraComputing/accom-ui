@@ -23,7 +23,7 @@ exports[`Room Page should render the form correctly 1`] = `
       </th>
       <li>
         <span>
-           people 
+           pers. 
         </span>
         (Minimum: 
         )
