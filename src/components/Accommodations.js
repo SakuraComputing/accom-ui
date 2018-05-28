@@ -16,7 +16,7 @@ export class Accommodations extends React.Component {
                 <AccommodationItem key={accommodation.id} {...accommodation}/>
             ))
         } else {
-            accommodationItem = <h4>No accommodations found.......</h4>
+            accommodationItem = <h3>No accommodations found.......</h3>
         }
 
         return(
@@ -25,9 +25,6 @@ export class Accommodations extends React.Component {
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="display-4 text-center">Accommodations</h1>
-                            <p className="lead text-center">
-                                Browse Accommodations
-                            </p>
                             {accommodationItem}
                         </div>
                     </div>

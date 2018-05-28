@@ -26,9 +26,9 @@ export class Room extends React.Component {
         let availability = Availability["rooms"].find(room => room.id === this.props.id);
         if(availability) {
             const { available }  = availability;
-            return <span>Rooms available: {available}</span>
+            return <span className="rooms-available">Rooms available: {available}</span>
         } else {
-            return null;
+            return <th className="room-sold-out">Sold Out</th>;
         }
     }
 
@@ -37,35 +37,52 @@ export class Room extends React.Component {
 
         if(supplement_price) {
             const { price: { price }} = supplement_price;
-            return <ul>
-                <h4>Today's Price</h4>
+            return <div className="price">
+                <th>Today's Price</th>
                 { supplement_price ? supplement_price.price.price : '' }
-            </ul>
+            </div>
         } else {
-            return null;
+            <th></th>;
         }
     }
 
     render() {
-        
+
         return (
-            <div className="content-container">
-                <h4>Room Name</h4>
-                {this.props.name}
-                <h4>Room Type</h4>
-                {this.props.room_type_description}
-                <h4>Occupancy</h4>
-                <li>Min: {this.props.min_occupancy}</li>
-                {this.props.type ? <div><h4>Accommodation Type</h4><ul>{this.props.type.name}</ul></div> : ''}
-                <h4>Description</h4>
-                {ReactHtmlParser(this.props.description)}
-                <ul>
-                    <h4>Facilities</h4>
-                    { this.props.facilities ? this.list(this.props.facilities, 'label') : ''}
+            <div className="room-container">
+                <div className="wrap">
+                    <div>
+                        <th>Room Name</th>
+                        {this.props.name}
+                    </div>
+                    <div>
+                        <th>Room Type</th>
+                        {this.props.room_type_description}
+                    </div>
+                    <div>
+                        <th>Occupancy</th>
+                        <li><span>{this.props.occupancy} people </span>(Minimum: {this.props.min_occupancy})</li>
+                    </div>
+                    <div>
+                        {this.props.type ? <div><h4>Accommodation Type</h4><ul>{this.props.type.name}</ul></div> : <div></div>}
+                    </div>
+                    <div>
+                        { this.getRoomsAvailable() }
+                    </div>
+                    <div>
+                        { this.getprices()}
+                    </div>
+                </div>
+                <div className="list-header">
+                    <th>Facilities</th>
+                    { this.props.facilities ? this.list(this.props.facilities) : ''}
                     { this.props.children }
-                </ul>
-                { this.getRoomsAvailable() }
-                { this.getprices()}
+                </div>
+                <div className="room-desc">
+                    {ReactHtmlParser(this.props.description)}
+
+                </div>
+                <button className="button button--reserve">I'll Reserve</button>
             </div>
         )
     }

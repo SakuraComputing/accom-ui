@@ -2,32 +2,59 @@
 
 exports[`Room Page should render the form correctly 1`] = `
 <div
-  className="content-container"
+  className="room-container"
 >
-  <h4>
-    Room Name
-  </h4>
-  <h4>
-    Room Type
-  </h4>
-  <h4>
-    Occupancy
-  </h4>
-  <li>
-    Min: 
-  </li>
-  <h4>
-    Description
-  </h4>
-  <ul>
-    <h4>
+  <div
+    className="wrap"
+  >
+    <div>
+      <th>
+        Room Name
+      </th>
+    </div>
+    <div>
+      <th>
+        Room Type
+      </th>
+    </div>
+    <div>
+      <th>
+        Occupancy
+      </th>
+      <li>
+        <span>
+           people 
+        </span>
+        (Minimum: 
+        )
+      </li>
+    </div>
+    <div>
+      <div />
+    </div>
+    <div>
+      <th
+        className="room-sold-out"
+      >
+        Sold Out
+      </th>
+    </div>
+    <div />
+  </div>
+  <div
+    className="list-header"
+  >
+    <th>
       Facilities
-    </h4>
-  </ul>
-  <ul>
-    <h4>
-      Today's Price
-    </h4>
-  </ul>
+    </th>
+  </div>
+  <div
+    className="room-desc"
+  />
+  <button
+    className="button button--reserve"
+  >
+    I'll Reserve
+  </button>
 </div>
 `;

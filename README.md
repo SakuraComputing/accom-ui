@@ -36,15 +36,17 @@ yarn install
 
 ##Testing
 
-TDD approach adopted. To run the unit tests run the following
+To run the unit tests run the following
 
 ```aidl
 yarn run test
 ```
 
-##Port
+##Application Start
 
 ```aidl
+yarn run dev-server
+
 localhost:8080
 ```
 

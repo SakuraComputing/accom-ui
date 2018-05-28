@@ -12,9 +12,9 @@ exports[`Accomodation Item  Page should render accomodation item page correctly 
     </ul>
   </div>
   <ul>
-    <h4>
+    <h3>
       Facilities
-    </h4>
+    </h3>
   </ul>
   <button
     className="button"
@@ -29,9 +29,9 @@ exports[`Accomodation Item  Page should render type if type exists 1`] = `
 <div>
   <h2 />
   <ul>
-    <h4>
+    <h3>
       Facilities
-    </h4>
+    </h3>
     <li
       key="1"
       label="bed"

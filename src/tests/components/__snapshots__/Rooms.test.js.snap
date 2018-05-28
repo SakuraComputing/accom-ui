@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Rooms Page should render the form correctly 1`] = `
-<div>
-  <h1>
-    Rooms
-  </h1>
-</div>
-`;

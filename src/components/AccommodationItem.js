@@ -35,7 +35,7 @@ export class AccommodationItem extends React.Component {
                 { ReactHtmlParser(this.props.description)}
                 {this.props.type ? <div><h4>Accomodation Type</h4><ul>{this.props.type.name}</ul></div> : ''}
                 <ul>
-                    <h4>Facilities</h4>
+                    <h3>Facilities</h3>
                     { this.props.facilities ? this.list(this.props.facilities) : ''}
                     { this.props.children }
                 </ul>

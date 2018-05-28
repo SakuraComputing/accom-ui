@@ -1,0 +1,35 @@
+.room-container {
+  margin: 3% auto 0 ;
+  padding: 0 $m-size;
+  max-width: 100rem;
+  border: 1px solid darken($off-white, 50%);
+}
+
+.room-sold-out {
+  color: red;
+}
+
+.rooms-available {
+  color: green;
+}
+
+.price {
+  color: blue;
+}
+
+.wrap {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrap > div {
+  height: 100px;
+  text-align: center;
+  border: 1px solid darken($off-white, 1%);
+}
+
+.room-desc {
+  padding: 1% 0 1% 0;
+}

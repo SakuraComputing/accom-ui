@@ -18,11 +18,6 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
         >
           Accommodations
         </h1>
-        <p
-          className="lead text-center"
-        >
-          Browse Accommodations
-        </p>
         <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
@@ -19309,11 +19304,6 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
         >
           Accommodations
         </h1>
-        <p
-          className="lead text-center"
-        >
-          Browse Accommodations
-        </p>
         <withRouter(AccommodationItem)
           address_1="Laubichl 141"
           address_2=""
