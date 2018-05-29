@@ -1,7 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import AccommodationItem from'./AccommodationItem';
-import { getAccommodations } from '../actions/accommodations';
 import data from '../../data/accommodation_data';
 
 export class Accommodations extends React.Component {
@@ -33,8 +31,4 @@ export class Accommodations extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    accommodation: state.accommodation
-});
-
-export default connect(mapStateToProps, { getAccommodations })(Accommodations);
+export default Accommodations;
