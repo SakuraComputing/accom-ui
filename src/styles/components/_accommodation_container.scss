@@ -3,7 +3,7 @@
   padding: 0 $m-size;
   max-width: 100rem;
   border: 1px solid darken($off-white, 50%);
-  border-radius: 5px
+  border-radius: 10px
 }
 
 .accomodation-type {
@@ -14,4 +14,8 @@
   padding: 4px;
   border-radius: 3px;
   width: fit-content;
+}
+
+.facilities-list {
+
 }

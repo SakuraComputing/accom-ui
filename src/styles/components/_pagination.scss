@@ -5,7 +5,7 @@
 
 #pagination {
   display: flex;
-  color: #505050;
+  color: $blue;
 }
 
 #pagination-list {
@@ -19,7 +19,7 @@
   display: flex;
   height: 50px;
   width: 50px;
-  border: 1px solid #777;
+  border: 1px solid $blue;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -30,7 +30,7 @@
 }
 
 .pagination-list-item.active {
-  background: #505050;
+  background: $blue;
   color: white;
 }
 

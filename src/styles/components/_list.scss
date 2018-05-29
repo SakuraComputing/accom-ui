@@ -21,6 +21,7 @@
   color: $dark-grey;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   padding: $s-size;
   text-decoration: none;
   transition: background .3s ease;
