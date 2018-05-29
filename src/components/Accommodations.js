@@ -31,7 +31,6 @@ export class Accommodations extends React.Component {
                     return accommodation.name.includes(e.target.value);
                 }
             );
-            console.log(newSearch);
             const page = 1;
             const renderedAccommodations = newSearch.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
             this.setState({
@@ -43,7 +42,6 @@ export class Accommodations extends React.Component {
     }
 
     componentDidMount() {
-        console.log("Comp did mount");
         const accommodations = data["accommodations"];
         this.setState({
             accommodations,

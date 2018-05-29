@@ -54,3 +54,8 @@ localhost:8080
 
 As this is a prototype I have not built in redux to it,It's there as a guide that it should be used on the actual application.
 
+###Additional Functionality
+
+Search filter by hotel
+
+Pagination
