@@ -30,13 +30,15 @@ export class AccommodationItem extends React.Component {
     render() {
         return (
             <div className="accommodation-container">
-                <h2>{this.props.name}</h2>
-                { ReactHtmlParser(this.props.description)}
-                    {this.props.type ?
-                        <div className="accomodation-type">
-                            <span>Accomodation Type: {this.props.type.name}</span>
-                        </div>
-                    : ''}
+                <h3>{this.props.name}</h3>
+                <div>
+                    { ReactHtmlParser(this.props.description)}
+                </div>
+                {this.props.type ?
+                    <div className="accomodation-type">
+                        <span>Accomodation Type: {this.props.type.name}</span>
+                    </div>
+                : ''}
                 { this.props.facilities ?
                     <div>Facilities
                         <small className="list-header">
@@ -44,7 +46,9 @@ export class AccommodationItem extends React.Component {
                         </small>
                     </div>
                 : ''}
-                <button className="button" onClick={this.displayRooms}>See our last available rooms ></button>
+                <div className="clearfix">
+                    <button className="button button--div" onClick={this.displayRooms}>See our last available rooms ></button>
+                </div>
             </div>
         )
     }

@@ -51,10 +51,14 @@ exports[`Room Page should render the form correctly 1`] = `
   <div
     className="room-desc"
   />
-  <button
-    className="button button--reserve"
+  <div
+    className="clearfix"
   >
-    I'll Reserve
-  </button>
+    <button
+      className="button button--reserve button--div"
+    >
+      I'll Reserve
+    </button>
+  </div>
 </div>
 `;

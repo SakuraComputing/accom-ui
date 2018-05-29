@@ -11,9 +11,11 @@ export class Accommodations extends React.Component {
             accommodations: [],
             renderedAccommodations: [],
             page: 1,
-            number_iterations: 2
+            number_iterations: 2,
+            search: ''
         };
         this.handlePageChange = this.handlePageChange.bind(this);
+        this.updateSearch = this.updateSearch.bind(this);
     }
 
     handlePageChange(page) {
@@ -21,9 +23,33 @@ export class Accommodations extends React.Component {
         this.setState({ page, renderedAccommodations});
     }
 
+    updateSearch(e) {
+        // this.setState( { search: e.target.value });
+        if(e) {
+            var newSearch = this.state.accommodations.filter(
+                (accommodation) => {
+                    return accommodation.name.includes(e.target.value);
+                }
+            );
+            console.log(newSearch);
+            const page = 1;
+            const renderedAccommodations = newSearch.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
+            this.setState({
+                newSearch,
+                renderedAccommodations: newSearch.slice(0,this.state.number_iterations),
+                total: newSearch.length
+            });
+        }
+    }
+
     componentDidMount() {
+        console.log("Comp did mount");
         const accommodations = data["accommodations"];
-        this.setState({ accommodations, renderedAccommodations: accommodations.slice(0,this.state.number_iterations), total: accommodations.length})
+        this.setState({
+            accommodations,
+            renderedAccommodations: accommodations.slice(0,this.state.number_iterations),
+            total: accommodations.length
+        });
     }
 
     render() {
@@ -36,6 +62,10 @@ export class Accommodations extends React.Component {
                     <div className="row">
                         <div className="col-md-1this.state.number_iterations">
                             <h1 className="display-4 text-center">Accommodations</h1>
+                            <input type="text"
+                                placeholder="Search"
+                                onChange={this.updateSearch}
+                            />
                             <ul>
                                 {
                                     renderedAccommodations.map(accommodation =>

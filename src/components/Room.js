@@ -7,11 +7,9 @@ export class Room extends React.Component {
     constructor(props){
         super(props);
 
-
     }
 
     list(data) {
-
         if(!data) {
             return;
         }
@@ -82,7 +80,9 @@ export class Room extends React.Component {
                     {ReactHtmlParser(this.props.description)}
 
                 </div>
-                <button className="button button--reserve">I'll Reserve</button>
+                <div className="clearfix">
+                    <button className="button button--reserve button--div">I'll Reserve</button>
+                </div>
             </div>
         )
     }

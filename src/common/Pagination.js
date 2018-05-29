@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-class Pagination extends Component {
+export class Pagination extends Component {
 
     constructor(props) {
         super(props);

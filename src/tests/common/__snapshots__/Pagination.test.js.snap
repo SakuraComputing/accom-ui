@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Page should render pagination correctly 1`] = `
+<div
+  id="pagination-container"
+>
+  <div
+    id="pagination"
+  >
+    <div
+      className="pagination-button"
+      onClick={[Function]}
+    >
+      prev
+    </div>
+    <ul
+      id="pagination-list"
+    />
+  </div>
+</div>
+`;

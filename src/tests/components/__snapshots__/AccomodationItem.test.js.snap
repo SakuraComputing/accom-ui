@@ -1,49 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Accomodation Item  Page should render accomodation item page correctly 1`] = `
-<div>
-  <h2 />
-  <div>
-    <h4>
-      Accomodation Type
-    </h4>
-    <ul>
-      Apart
-    </ul>
-  </div>
-  <ul>
-    <h3>
-      Facilities
-    </h3>
-  </ul>
-  <button
-    className="button"
-    onClick={[Function]}
+<div
+  className="accommodation-container"
+>
+  <h3 />
+  <div />
+  <div
+    className="accomodation-type"
   >
-    See our last available rooms &gt;
-  </button>
+    <span>
+      Accomodation Type: 
+      Apart
+    </span>
+  </div>
+  <div
+    className="clearfix"
+  >
+    <button
+      className="button button--div"
+      onClick={[Function]}
+    >
+      See our last available rooms &gt;
+    </button>
+  </div>
 </div>
 `;
 
 exports[`Accomodation Item  Page should render type if type exists 1`] = `
-<div>
-  <h2 />
-  <ul>
-    <h3>
-      Facilities
-    </h3>
-    <li
-      key="1"
-      label="bed"
+<div
+  className="accommodation-container"
+>
+  <h3 />
+  <div />
+  <div>
+    Facilities
+    <small
+      className="list-header"
     >
-      bed
-    </li>
-  </ul>
-  <button
-    className="button"
-    onClick={[Function]}
+      <li
+        key="1"
+        label="bed"
+      >
+        bed
+      </li>
+    </small>
+  </div>
+  <div
+    className="clearfix"
   >
-    See our last available rooms &gt;
-  </button>
+    <button
+      className="button button--div"
+      onClick={[Function]}
+    >
+      See our last available rooms &gt;
+    </button>
+  </div>
 </div>
 `;

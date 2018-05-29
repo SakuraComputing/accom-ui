@@ -16,7 +16,7 @@ exports[`Header Page should render header correctly 1`] = `
         to="/dashboard"
       >
         <h1>
-          Accomodation UI
+          Accomodation
         </h1>
       </Link>
     </div>
