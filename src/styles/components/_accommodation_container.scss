@@ -1,0 +1,17 @@
+.accommodation-container {
+  margin: 3% auto 0 ;
+  padding: 0 $m-size;
+  max-width: 100rem;
+  border: 1px solid darken($off-white, 50%);
+  border-radius: 5px
+}
+
+.accomodation-type {
+  font-size: $font-size-small;
+  background: $light-orange;
+  color: $off-white;
+  margin: 10px 0;
+  padding: 4px;
+  border-radius: 3px;
+  width: fit-content;
+}

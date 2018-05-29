@@ -3,11 +3,13 @@
   border: none;
   color: white;
   display: inline-block;
-  font-size: $font-size-large;
+  font-size: $font-size-medium;
   font-weight: 300;
   line-height: 1;
   padding: $s-size;
   text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .button--reserve {

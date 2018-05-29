@@ -28,17 +28,22 @@ export class AccommodationItem extends React.Component {
     }
 
     render() {
-
         return (
-            <div>
+            <div className="accommodation-container">
                 <h2>{this.props.name}</h2>
                 { ReactHtmlParser(this.props.description)}
-                {this.props.type ? <div><h4>Accomodation Type</h4><ul>{this.props.type.name}</ul></div> : ''}
-                <ul>
-                    <h3>Facilities</h3>
-                    { this.props.facilities ? this.list(this.props.facilities) : ''}
-                    { this.props.children }
-                </ul>
+                    {this.props.type ?
+                        <div className="accomodation-type">
+                            <span>Accomodation Type: {this.props.type.name}</span>
+                        </div>
+                    : ''}
+                { this.props.facilities ?
+                    <div>Facilities
+                        <small className="list-header">
+                            {this.list(this.props.facilities)}
+                        </small>
+                    </div>
+                : ''}
                 <button className="button" onClick={this.displayRooms}>See our last available rooms ></button>
             </div>
         )
