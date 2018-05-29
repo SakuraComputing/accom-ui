@@ -10,19 +10,20 @@ export class Accommodations extends React.Component {
         this.state = {
             accommodations: [],
             renderedAccommodations: [],
-            page: 1
+            page: 1,
+            number_iterations: 2
         };
         this.handlePageChange = this.handlePageChange.bind(this);
     }
 
     handlePageChange(page) {
-        const renderedAccommodations = this.state.accommodations.slice((page - 1) * 2, (page -1) * 2 + 2);
+        const renderedAccommodations = this.state.accommodations.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
         this.setState({ page, renderedAccommodations});
     }
 
     componentDidMount() {
         const accommodations = data["accommodations"];
-        this.setState({ accommodations, renderedAccommodations: accommodations.slice(0,2), total: accommodations.length})
+        this.setState({ accommodations, renderedAccommodations: accommodations.slice(0,this.state.number_iterations), total: accommodations.length})
     }
 
     render() {
@@ -33,7 +34,7 @@ export class Accommodations extends React.Component {
             <div className="accommodations">
                 <div className="content-container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-1this.state.number_iterations">
                             <h1 className="display-4 text-center">Accommodations</h1>
                             <ul>
                                 {
@@ -45,9 +46,9 @@ export class Accommodations extends React.Component {
                                 }
                             </ul>
                             <Pagination
-                                margin={2}
+                                margin={this.state.number_iterations}
                                 page={page}
-                                count={Math.ceil(total / 2)}
+                                count={Math.ceil(total / this.state.number_iterations)}
                                 onPageChange={this.handlePageChange}
                             />
                         </div>
