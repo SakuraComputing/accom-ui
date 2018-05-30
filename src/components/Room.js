@@ -47,29 +47,30 @@ export class Room extends React.Component {
 
     render() {
 
+        console.log(this.props.description);
+
         return (
             <div className="room-container">
-                <div className="wrap">
-                    <div>
-                        <th>Room Name</th>
-                        {this.props.name}
-                    </div>
-                    <div>
-                        <th>Room Type</th>
-                        {this.props.room_type_description}
-                    </div>
-                    <div>
-                        <th>Occupancy</th>
-                        <li><span>{this.props.occupancy} pers. </span>(Minimum: {this.props.min_occupancy})</li>
-                    </div>
-                    <div>
-                        {this.props.type ? <div><h4>Accommodation Type</h4><ul>{this.props.type.name}</ul></div> : <div></div>}
-                    </div>
-                    <div>
-                        { this.getRoomsAvailable() }
-                    </div>
-                    <div>
-                        { this.getprices()}
+                <div className="details-container">
+                    <div className="details-container__row">
+                        <div className="details-container__col">
+                            <th className="details-container__col__header">Room Name</th>
+                            {this.props.name}
+                        </div>
+                        <div className="details-container__col">
+                            <th className="details-container__col__header">Room Type</th>
+                            {this.props.room_type_description}
+                        </div>
+                        <div className="details-container__col">
+                            <th className="details-container__col__header">Occupancy</th>
+                            <li><span>{this.props.occupancy} pers. </span>(Minimum: {this.props.min_occupancy})</li>
+                        </div>
+                        <div className="details-container__col">
+                            { this.getRoomsAvailable() }
+                        </div>
+                        <div className="details-container__col">
+                            { this.getprices()}
+                        </div>
                     </div>
                 </div>
                 <div className="list-header">
