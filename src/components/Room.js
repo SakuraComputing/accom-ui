@@ -40,13 +40,11 @@ export class Room extends React.Component {
                 <span>Today's Price: { supplement_price ? supplement_price.price.price : '' }</span>
             </div>
         } else {
-            <th></th>;
+            return <th className="room-sold-out">You missed it our last room sold out</th>;
         }
     }
 
     render() {
-
-        console.log(this.props.description);
 
         return (
             <div className="room-container">

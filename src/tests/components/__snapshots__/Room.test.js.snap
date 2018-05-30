@@ -55,7 +55,13 @@ exports[`Room Page should render the form correctly 1`] = `
       </div>
       <div
         className="details-container__col"
-      />
+      >
+        <th
+          className="room-sold-out"
+        >
+          You missed it our last room sold out
+        </th>
+      </div>
     </div>
   </div>
   <div
