@@ -24,7 +24,6 @@ export class Accommodations extends React.Component {
     }
 
     updateSearch(e) {
-        // this.setState( { search: e.target.value });
         if(e) {
             var newSearch = this.state.accommodations.filter(
                 (accommodation) => {
@@ -61,7 +60,8 @@ export class Accommodations extends React.Component {
                         <div className="col-md-1this.state.number_iterations">
                             <h1 className="display-4 text-center">Accommodations</h1>
                             <input type="text"
-                                placeholder="Search"
+                                className="text-input"
+                                placeholder="Search Hotels"
                                 onChange={this.updateSearch}
                             />
                             <ul>
