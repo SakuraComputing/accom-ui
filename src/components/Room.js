@@ -37,8 +37,7 @@ export class Room extends React.Component {
         if(supplement_price) {
             const { price: { price }} = supplement_price;
             return <div className="price">
-                <th>Today's Price</th>
-                { supplement_price ? supplement_price.price.price : '' }
+                <span>Today's Price: { supplement_price ? supplement_price.price.price : '' }</span>
             </div>
         } else {
             <th></th>;
@@ -75,11 +74,10 @@ export class Room extends React.Component {
                 </div>
                 <div className="list-header">
                     <th>Facilities</th>
-                    { this.props.facilities ? this.list(this.props.facilities) : ''}
+                    { this.props.facilities ? this.list(this.props.facilities) : <li>Only Basic Facilities Avaliable</li>}
                 </div>
                 <div className="room-desc">
-                    {ReactHtmlParser(this.props.description)}
-
+                    *{ReactHtmlParser(this.props.description)}
                 </div>
                 <div className="clearfix">
                     <button className="button button--reserve button--div">I'll Reserve</button>

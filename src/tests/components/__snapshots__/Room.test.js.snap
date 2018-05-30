@@ -5,41 +5,58 @@ exports[`Room Page should render the form correctly 1`] = `
   className="room-container"
 >
   <div
-    className="wrap"
+    className="details-container"
   >
-    <div>
-      <th>
-        Room Name
-      </th>
-    </div>
-    <div>
-      <th>
-        Room Type
-      </th>
-    </div>
-    <div>
-      <th>
-        Occupancy
-      </th>
-      <li>
-        <span>
-           pers. 
-        </span>
-        (Minimum: 
-        )
-      </li>
-    </div>
-    <div>
-      <div />
-    </div>
-    <div>
-      <th
-        className="room-sold-out"
+    <div
+      className="details-container__row"
+    >
+      <div
+        className="details-container__col"
       >
-        Sold Out
-      </th>
+        <th
+          className="details-container__col__header"
+        >
+          Room Name
+        </th>
+      </div>
+      <div
+        className="details-container__col"
+      >
+        <th
+          className="details-container__col__header"
+        >
+          Room Type
+        </th>
+      </div>
+      <div
+        className="details-container__col"
+      >
+        <th
+          className="details-container__col__header"
+        >
+          Occupancy
+        </th>
+        <li>
+          <span>
+             pers. 
+          </span>
+          (Minimum: 
+          )
+        </li>
+      </div>
+      <div
+        className="details-container__col"
+      >
+        <th
+          className="room-sold-out"
+        >
+          Sold Out
+        </th>
+      </div>
+      <div
+        className="details-container__col"
+      />
     </div>
-    <div />
   </div>
   <div
     className="list-header"
@@ -47,10 +64,15 @@ exports[`Room Page should render the form correctly 1`] = `
     <th>
       Facilities
     </th>
+    <li>
+      Only Basic Facilities Avaliable
+    </li>
   </div>
   <div
     className="room-desc"
-  />
+  >
+    *
+  </div>
   <div
     className="clearfix"
   >

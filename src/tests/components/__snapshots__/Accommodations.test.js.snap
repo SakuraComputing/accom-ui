@@ -19,8 +19,9 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
           Accommodations
         </h1>
         <input
+          className="text-input"
           onChange={[Function]}
-          placeholder="Search"
+          placeholder="Search Hotels"
           type="text"
         />
         <ul>
@@ -852,8 +853,9 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
           Accommodations
         </h1>
         <input
+          className="text-input"
           onChange={[Function]}
-          placeholder="Search"
+          placeholder="Search Hotels"
           type="text"
         />
         <ul>
