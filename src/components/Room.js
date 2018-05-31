@@ -44,6 +44,17 @@ export class Room extends React.Component {
         }
     }
 
+    displayReserveButton() {
+        let availability = Availability["rooms"].find(room => room.id === this.props.id);
+        if(availability) {
+            return <div className="clearfix">
+                <button className="button button--reserve button--div">I'll Reserve</button>
+            </div>
+        } else {
+            return '';
+        }
+    }
+
     render() {
 
         return (
@@ -77,9 +88,7 @@ export class Room extends React.Component {
                 <div className="room-desc">
                     *{ReactHtmlParser(this.props.description)}
                 </div>
-                <div className="clearfix">
-                    <button className="button button--reserve button--div">I'll Reserve</button>
-                </div>
+                {this.displayReserveButton()}
             </div>
         )
     }
