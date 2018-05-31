@@ -47,11 +47,12 @@ exports[`Room Page should render the form correctly 1`] = `
       <div
         className="details-container__col"
       >
-        <th
-          className="room-sold-out"
+        <span
+          className="rooms-available"
         >
-          Sold Out
-        </th>
+          Rooms available: 
+          6
+        </span>
       </div>
       <div
         className="details-container__col"
@@ -78,6 +79,15 @@ exports[`Room Page should render the form correctly 1`] = `
     className="room-desc"
   >
     *
+  </div>
+  <div
+    className="clearfix"
+  >
+    <button
+      className="button button--reserve button--div"
+    >
+      I'll Reserve
+    </button>
   </div>
 </div>
 `;
