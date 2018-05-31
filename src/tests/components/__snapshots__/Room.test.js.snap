@@ -79,14 +79,5 @@ exports[`Room Page should render the form correctly 1`] = `
   >
     *
   </div>
-  <div
-    className="clearfix"
-  >
-    <button
-      className="button button--reserve button--div"
-    >
-      I'll Reserve
-    </button>
-  </div>
 </div>
 `;
