@@ -21,4 +21,10 @@ describe('Room Page', () => {
         expect(returnRooms).toEqual(test);
 
     });
+
+    it('should return span tag with no rooms available', () => {
+        // const returnRooms = wrapper.instance().getRoomsAvailable();
+        // const test = <th className="room-sold-out">Sold Out</th>;
+        // expect(returnRooms).toEqual(test);
+    });
 });
