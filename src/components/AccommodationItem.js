@@ -1,5 +1,6 @@
 import React from 'react';
 import {withRouter} from "react-router-dom";
+import facilityList from '../common/facilityList';
 import ReactHtmlParser from 'react-html-parser';
 
 export class AccommodationItem extends React.Component {
@@ -13,19 +14,6 @@ export class AccommodationItem extends React.Component {
     displayRooms = () => {
         this.props.history.push(`/accommodation/${this.props.id}`);
     };
-
-    list(data) {
-
-        if(!data) {
-            return;
-        }
-
-        return data.map((node, index) => {
-            return <li key ={ node.id } label={ node.label }>
-                {node.label}
-            </li>
-        })
-    }
 
     render() {
         return (
@@ -42,7 +30,7 @@ export class AccommodationItem extends React.Component {
                 { this.props.facilities ?
                     <div>Facilities
                         <small className="list-header">
-                            {this.list(this.props.facilities)}
+                            {facilityList(this.props.facilities)}
                         </small>
                     </div>
                 : ''}

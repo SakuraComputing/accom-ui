@@ -21,22 +21,6 @@ describe('Accomodation Item  Page', () => {
         wrapper.setProps({ facilities: [{ id: 1, label: 'bed'}]});
         expect(toJSON(wrapper)).toMatchSnapshot();
     });
-    it('should have a function called list', () => {
-        it('should be a function', () => {
-            expect(typeof list).toEqual('function');
-        });
-    });
-    it('should return facilities list when list function is called', () => {
-        const facilities = [ { id: '1', label: 'Towel'}];
-        const ReturnData = wrapper.instance().list(facilities);
-        const test = [<li key="1" label="Towel">Towel</li>];
-        expect(ReturnData).toEqual(test);
-    });
-    it('should return nothing when no data is passed in', () => {
-        const facilities = null;
-        const ReturnData = wrapper.instance().list(facilities);
-        expect(ReturnData).toBeNull;
-    });
     it('should have a function called display rooms', () => {
         it('should be a function', () => {
             expect(typeof displayRooms).toEqual('function');
@@ -44,7 +28,7 @@ describe('Accomodation Item  Page', () => {
     });
 
     // it('should redirect to the rooms page when the rooms button is clicked', () => {
-    //     const id = 65;
+    //     const id = 161;
     //     wrapper.find('button').simulate('click');
     //     expect(history.push).toHaveBeenLastCalledWith(`/accommodation/${id}`);
     // });

@@ -1,24 +1,12 @@
 import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
+import facilityList from '../common/facilityList';
 import Availability from '../../data/accommodation_availability_data';
 
 export class Room extends React.Component {
 
     constructor(props){
         super(props);
-
-    }
-
-    list(data) {
-        if(!data) {
-            return;
-        }
-
-        return data.map((node, index) => {
-            return <li key ={ node.id } label={ node.label }>
-                {node.label}
-            </li>
-        })
     }
 
     getRoomsAvailable() {
@@ -83,7 +71,7 @@ export class Room extends React.Component {
                 </div>
                 <div className="list-header">
                     <th>Facilities</th>
-                    { this.props.facilities ? this.list(this.props.facilities) : <li>Only Basic Facilities Avaliable</li>}
+                    { this.props.facilities ? facilityList(this.props.facilities) : <li>Only Basic Facilities Avaliable</li>}
                 </div>
                 <div className="room-desc">
                     *{ReactHtmlParser(this.props.description)}
