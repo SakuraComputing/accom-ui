@@ -21,8 +21,6 @@ describe('Accomodations Page', () => {
         let wrapper;
 
         it('should set the state for page and rendered accommodations', () => {
-            const renderedAccommodation = [jest.fn()];
-
             wrapper = shallow(<Accommodations />);
             const initailState = {
                 accommodations: [],
@@ -43,5 +41,45 @@ describe('Accomodations Page', () => {
             };
             expect(wrapper.state()).toEqual(newState);
          })
+    });
+
+    describe('update search', () => {
+
+        let wrapper;
+
+        beforeEach(() => {
+            wrapper = shallow(<Accommodations />);
+
+        });
+
+        it('should update the search to the correct value', () => {
+            const value = 'E';
+            wrapper.instance().updateSearch({ target: value });
+            console.log('Wrapper', wrapper);
+            expect(wrapper.length).toEqual(1);
+        });
+
+        it('should set the state', () => {
+            const initailState = {
+                accommodations: [],
+                renderedAccommodations: [],
+                page: 1,
+                number_iterations: 2,
+                search: ''
+            };
+            wrapper.setState(initailState);
+            wrapper.instance().updateSearch('E');
+            const newState = {
+                accommodations: [],
+                newSearch: [],
+                number_iterations: 2,
+                page: 1,
+                renderedAccommodations: [],
+                search: "",
+                total: 0
+            };
+            expect(wrapper.state()).toEqual(newState);
+
+        });
     });
 });

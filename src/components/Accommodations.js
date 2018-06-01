@@ -20,17 +20,17 @@ export class Accommodations extends React.Component {
 
     handlePageChange(page) {
         const renderedAccommodations = this.state.accommodations.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
-        console.log(renderedAccommodations, page);
         this.setState({ page, renderedAccommodations});
     }
 
     updateSearch(e) {
         if(e) {
-            var newSearch = this.state.accommodations.filter(
+            let newSearch = this.state.accommodations.filter(
                 (accommodation) => {
                     return accommodation.name.includes(e.target.value);
                 }
             );
+            
             const page = 1;
             const renderedAccommodations = newSearch.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
             this.setState({
