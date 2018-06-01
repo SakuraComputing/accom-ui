@@ -20,6 +20,7 @@ export class Accommodations extends React.Component {
 
     handlePageChange(page) {
         const renderedAccommodations = this.state.accommodations.slice((page - 1) * this.state.number_iterations, (page -1) * this.state.number_iterations + this.state.number_iterations);
+        console.log(renderedAccommodations, page);
         this.setState({ page, renderedAccommodations});
     }
 

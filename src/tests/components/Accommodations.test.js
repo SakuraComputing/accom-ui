@@ -16,4 +16,32 @@ describe('Accomodations Page', () => {
         const wrapper = shallow(<Accommodations data={data} />);
         expect(toJSON(wrapper)).toMatchSnapshot();
     });
+    describe('handle page change function', () => {
+
+        let wrapper;
+
+        it('should set the state for page and rendered accommodations', () => {
+            const renderedAccommodation = [jest.fn()];
+
+            wrapper = shallow(<Accommodations />);
+            const initailState = {
+                accommodations: [],
+                renderedAccommodations: [],
+                page: 1,
+                number_iterations: 2,
+                search: ''
+            };
+            wrapper.setState(initailState);
+            wrapper.instance().handlePageChange(2);
+            const newState = {
+                accommodations: [],
+                number_iterations: 2,
+                page: 2,
+                renderedAccommodations: [],
+                search: "",
+                total: 99
+            };
+            expect(wrapper.state()).toEqual(newState);
+         })
+    });
 });
