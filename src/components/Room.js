@@ -7,6 +7,8 @@ export class Room extends React.Component {
 
     constructor(props){
         super(props);
+
+
     }
 
     getRoomsAvailable() {
@@ -19,7 +21,7 @@ export class Room extends React.Component {
         }
     }
 
-    getprices() {
+    getprices () {
         const { supplement_price }   = this.props;
 
         if(supplement_price) {
