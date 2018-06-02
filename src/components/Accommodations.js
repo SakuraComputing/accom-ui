@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import AccommodationItem from'./AccommodationItem';
 import data from '../../data/accommodation_data';
 import Pagination from '../common/Pagination';
@@ -42,15 +43,17 @@ export class Accommodations extends React.Component {
     }
 
     componentDidMount() {
-        const accommodations = data["accommodations"];
-        this.setState({
-            accommodations,
-            renderedAccommodations: accommodations.slice(0,this.state.number_iterations),
-            total: accommodations.length
-        });
+        // const accommodations = data["accommodations"];
+        // this.setState({
+        //     accommodations,
+        //     renderedAccommodations: accommodations.slice(0,this.state.number_iterations),
+        //     total: accommodations.length
+        // });
     }
 
     render() {
+
+        console.log(this.props.accommodations);
 
         const { page, total, renderedAccommodations } = this.state;
 
@@ -88,4 +91,8 @@ export class Accommodations extends React.Component {
     }
 }
 
-export default Accommodations;
+const mapStateToProps = (state) => ({
+    accommodations: state.accommodations
+});
+
+export default connect(mapStateToProps, null)(Accommodations);
