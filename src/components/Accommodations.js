@@ -43,6 +43,7 @@ export class Accommodations extends React.Component {
 
     componentDidMount() {
         const accommodations = data["accommodations"];
+        console.log("Where",typeof accommodations);
         this.setState({
             accommodations,
             renderedAccommodations: accommodations.slice(0,this.state.number_iterations),

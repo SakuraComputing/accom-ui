@@ -1,5 +1,5 @@
 import {
-    PROFILE_LOADING,
+    SET_ACCOMMODATIONS,
     GET_ACCOMMODATIONS
 } from "../actions/types";
 
@@ -16,6 +16,8 @@ export default (state = accomodationReduserDefaultsState, action) => {
                     accommodations: action.payload,
                     loading: false
                 };
+        case SET_ACCOMMODATIONS:
+            return action.accommodations;
         default:
             return state;
     }
