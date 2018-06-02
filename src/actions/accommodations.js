@@ -30,7 +30,6 @@ export const getRooms = (id) => ({
 // Get Accommodation JSON
 export const startSetAccommodations = () => {
   return(dispatch) => {
-      console.log("Is it getting here?");
       return dispatch(setAccommodations(ACCOM_JSON))
   }
 };
@@ -38,7 +37,7 @@ export const startSetAccommodations = () => {
 // Get Accommodation Availibility JSON
 export const startSetAccommodationAvailibility = () => {
   return(dispatch) => {
-      return dispatch(setAccommodationAvailibility(ACCOM__AVAIL_JSON));
+      return dispatch(setAccommodationAvailibility(ACCOM__AVAIL_JSON["accommodations"]));
   }
 };
 

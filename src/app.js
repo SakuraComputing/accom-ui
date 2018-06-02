@@ -12,13 +12,10 @@ import './styles/styles.scss';
 const store = configureStore();
 
 store.dispatch(startSetAccommodations());
-    const jsx = (
-        <Provider store={store}>
-            <AppRouter />
-        </Provider>
-    );
-
-    ReactDOM.render(jsx, document.getElementById('app'));
-// })
-// .catch((err) => console.log("Application not loading.....", err));
+const jsx = (
+    <Provider store={store}>
+        <AppRouter />
+    </Provider>
+);
+ReactDOM.render(jsx, document.getElementById('app'));
 

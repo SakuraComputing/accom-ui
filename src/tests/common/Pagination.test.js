@@ -37,10 +37,7 @@ describe('componentWillReceiveProps', () => {
     it('should goFirstPage when page page - margin is greater than one', () => {
         // wrapper = shallow(<Pagination props={newProps}/>);
         // const newProps = { count: 50, margin: 2, page: 3};
-
-
-
-        // console.log("What are these?", this.props, wrapper);
+        
         // expect(wrapper).toEqual(1);
 
     });

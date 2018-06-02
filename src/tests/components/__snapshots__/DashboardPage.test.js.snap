@@ -2,6 +2,6 @@
 
 exports[`Dashboard Page should render accomodation UI dashboard page correctly 1`] = `
 <body>
-  <Accommodations />
+  <Connect(Accommodations) />
 </body>
 `;

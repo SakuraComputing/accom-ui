@@ -24,9 +24,162 @@ exports[`Accomodations Page should render accomodations page correctly 1`] = `
           placeholder="Search Hotels"
           type="text"
         />
-        <ul />
+        <ul>
+          <div
+            key="65"
+          >
+            <withRouter(AccommodationItem)
+              address_1="Laubichl 141"
+              address_2=""
+              address_3="Mayrhofen"
+              country={
+                Object {
+                  "id": 15,
+                  "name": "Austria",
+                }
+              }
+              description="<p>Alpine bliss! The Almhof sits in a meadow in Mayrhofen, surrounded by magnificent mountain views. Just a short stroll from the centre of the festival and the main ski lifts, you can escape the madness in minutes to chill on your balcony and watch the sun set behind the Penken, or relax in the reading lounge - with free WiFi. Ohh la la.</p> <p>Each room is kitted out with a TV, hairdryer, safe, telephone and balcony overlooking Mayrhofen&rsquo;s snow-capped mountains and the new spa area comes equipped with a Finnish sauna, steam bath and a gym.</p> <p>If you want great value, centrally located traditional Austrian accommodation with clean and simple Tyrolean themed d&eacute;cor, then look no further than the Almhof&hellip;</p>"
+              facilities={
+                Array [
+                  Object {
+                    "id": 36,
+                    "label": "Balcony or Terrace",
+                  },
+                  Object {
+                    "id": 1,
+                    "label": "En Suite",
+                  },
+                  Object {
+                    "id": 8,
+                    "label": "Gardens",
+                  },
+                  Object {
+                    "id": 28,
+                    "label": "Restaurant",
+                  },
+                  Object {
+                    "id": 10,
+                    "label": "Safety Deposit Box",
+                  },
+                  Object {
+                    "id": 33,
+                    "label": "Sat TV",
+                  },
+                  Object {
+                    "id": 26,
+                    "label": "Sauna",
+                  },
+                  Object {
+                    "id": 34,
+                    "label": "Telephone",
+                  },
+                  Object {
+                    "id": 12,
+                    "label": "WIFI Access",
+                  },
+                ]
+              }
+              id={65}
+              images={
+                Array [
+                  Object {
+                    "filename": "d/1340892898_65_doppelzimmer use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_doppelzimmer use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_doppelzimmer use.jpg",
+                    "id": 8999,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "id": 9000,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0028 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0028 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0028 use.jpg",
+                    "id": 9001,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0072 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0072 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0072 use.jpg",
+                    "id": 9002,
+                  },
+                  Object {
+                    "filename": "u/1340892898_65_use.jpg",
+                    "filename_medium": "u/medium_1340892898_65_use.jpg",
+                    "filename_thumb": "u/thumb_1340892898_65_use.jpg",
+                    "id": 9003,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0056 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0056 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0056 use.jpg",
+                    "id": 9005,
+                  },
+                ]
+              }
+              location={
+                Object {
+                  "id": 522,
+                  "location_lat": 47.1726510645752,
+                  "location_long": 11.86708005850528,
+                  "name": "Hotel Garni Almhof",
+                }
+              }
+              name="Hotel Garni Almhof - In Town - Central Mayrhofen"
+              postcode="A-6290"
+              rating={
+                Object {
+                  "id": 3,
+                  "label": "3*",
+                }
+              }
+              resort={
+                Object {
+                  "id": 74,
+                  "name": "Mayrhofen Central",
+                }
+              }
+              rooms={
+                Array [
+                  Object {
+                    "description": "<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included",
+                    "id": 129,
+                    "min_occupancy": 2,
+                    "name": "Austrian Twin/Double",
+                    "number_of_core_nights": null,
+                    "occupancy": 2,
+                    "per_night_prices": Array [],
+                    "room_type_description": "Austrian Twin/Double",
+                    "sort_order": 450,
+                    "type_id": 22,
+                    "upsell": "",
+                    "website_url": "http://www.almhof-mayrhofen.at",
+                  },
+                  Object {
+                    "description": "<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included",
+                    "id": 130,
+                    "min_occupancy": 3,
+                    "name": "Triple",
+                    "number_of_core_nights": null,
+                    "occupancy": 3,
+                    "per_night_prices": Array [],
+                    "room_type_description": "Triple",
+                    "sort_order": 0,
+                    "type_id": 4,
+                    "upsell": "",
+                    "website_url": "http://www.almhof-mayrhofen.at",
+                  },
+                ]
+              }
+              sort_order={0}
+            />
+          </div>
+        </ul>
         <Pagination
-          count={NaN}
+          count={1}
           margin={2}
           onPageChange={[Function]}
           page={1}
@@ -61,9 +214,162 @@ exports[`Accomodations Page should show when no accomodations have been found 1`
           placeholder="Search Hotels"
           type="text"
         />
-        <ul />
+        <ul>
+          <div
+            key="65"
+          >
+            <withRouter(AccommodationItem)
+              address_1="Laubichl 141"
+              address_2=""
+              address_3="Mayrhofen"
+              country={
+                Object {
+                  "id": 15,
+                  "name": "Austria",
+                }
+              }
+              description="<p>Alpine bliss! The Almhof sits in a meadow in Mayrhofen, surrounded by magnificent mountain views. Just a short stroll from the centre of the festival and the main ski lifts, you can escape the madness in minutes to chill on your balcony and watch the sun set behind the Penken, or relax in the reading lounge - with free WiFi. Ohh la la.</p> <p>Each room is kitted out with a TV, hairdryer, safe, telephone and balcony overlooking Mayrhofen&rsquo;s snow-capped mountains and the new spa area comes equipped with a Finnish sauna, steam bath and a gym.</p> <p>If you want great value, centrally located traditional Austrian accommodation with clean and simple Tyrolean themed d&eacute;cor, then look no further than the Almhof&hellip;</p>"
+              facilities={
+                Array [
+                  Object {
+                    "id": 36,
+                    "label": "Balcony or Terrace",
+                  },
+                  Object {
+                    "id": 1,
+                    "label": "En Suite",
+                  },
+                  Object {
+                    "id": 8,
+                    "label": "Gardens",
+                  },
+                  Object {
+                    "id": 28,
+                    "label": "Restaurant",
+                  },
+                  Object {
+                    "id": 10,
+                    "label": "Safety Deposit Box",
+                  },
+                  Object {
+                    "id": 33,
+                    "label": "Sat TV",
+                  },
+                  Object {
+                    "id": 26,
+                    "label": "Sauna",
+                  },
+                  Object {
+                    "id": 34,
+                    "label": "Telephone",
+                  },
+                  Object {
+                    "id": 12,
+                    "label": "WIFI Access",
+                  },
+                ]
+              }
+              id={65}
+              images={
+                Array [
+                  Object {
+                    "filename": "d/1340892898_65_doppelzimmer use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_doppelzimmer use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_doppelzimmer use.jpg",
+                    "id": 8999,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_doppelzimmer- oder dreibettzimmer use.jpg",
+                    "id": 9000,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0028 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0028 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0028 use.jpg",
+                    "id": 9001,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0072 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0072 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0072 use.jpg",
+                    "id": 9002,
+                  },
+                  Object {
+                    "filename": "u/1340892898_65_use.jpg",
+                    "filename_medium": "u/medium_1340892898_65_use.jpg",
+                    "filename_thumb": "u/thumb_1340892898_65_use.jpg",
+                    "id": 9003,
+                  },
+                  Object {
+                    "filename": "d/1340892898_65_dsc_0056 use.jpg",
+                    "filename_medium": "d/medium_1340892898_65_dsc_0056 use.jpg",
+                    "filename_thumb": "d/thumb_1340892898_65_dsc_0056 use.jpg",
+                    "id": 9005,
+                  },
+                ]
+              }
+              location={
+                Object {
+                  "id": 522,
+                  "location_lat": 47.1726510645752,
+                  "location_long": 11.86708005850528,
+                  "name": "Hotel Garni Almhof",
+                }
+              }
+              name="Hotel Garni Almhof - In Town - Central Mayrhofen"
+              postcode="A-6290"
+              rating={
+                Object {
+                  "id": 3,
+                  "label": "3*",
+                }
+              }
+              resort={
+                Object {
+                  "id": 74,
+                  "name": "Mayrhofen Central",
+                }
+              }
+              rooms={
+                Array [
+                  Object {
+                    "description": "<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included",
+                    "id": 129,
+                    "min_occupancy": 2,
+                    "name": "Austrian Twin/Double",
+                    "number_of_core_nights": null,
+                    "occupancy": 2,
+                    "per_night_prices": Array [],
+                    "room_type_description": "Austrian Twin/Double",
+                    "sort_order": 450,
+                    "type_id": 22,
+                    "upsell": "",
+                    "website_url": "http://www.almhof-mayrhofen.at",
+                  },
+                  Object {
+                    "description": "<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included",
+                    "id": 130,
+                    "min_occupancy": 3,
+                    "name": "Triple",
+                    "number_of_core_nights": null,
+                    "occupancy": 3,
+                    "per_night_prices": Array [],
+                    "room_type_description": "Triple",
+                    "sort_order": 0,
+                    "type_id": 4,
+                    "upsell": "",
+                    "website_url": "http://www.almhof-mayrhofen.at",
+                  },
+                ]
+              }
+              sort_order={0}
+            />
+          </div>
+        </ul>
         <Pagination
-          count={NaN}
+          count={1}
           margin={2}
           onPageChange={[Function]}
           page={1}

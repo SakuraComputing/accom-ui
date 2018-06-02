@@ -43,17 +43,15 @@ export class Accommodations extends React.Component {
     }
 
     componentDidMount() {
-        // const accommodations = data["accommodations"];
-        // this.setState({
-        //     accommodations,
-        //     renderedAccommodations: accommodations.slice(0,this.state.number_iterations),
-        //     total: accommodations.length
-        // });
+        const { accommodations } = this.props.accommodations;
+        this.setState({
+            accommodations,
+            renderedAccommodations: accommodations.slice(0,this.state.number_iterations),
+            total: accommodations.length
+        });
     }
 
     render() {
-
-        console.log(this.props.accommodations);
 
         const { page, total, renderedAccommodations } = this.state;
 
