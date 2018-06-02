@@ -1,4 +1,8 @@
-import {setProfileLoading, setAccommodations, setAccommodationAvailibility, getRooms} from '../../actions/accommodations';
+import {setProfileLoading,
+    setAccommodations,
+    setAccommodationAvailibility,
+    getRooms,
+    startSetAccommodationAvailibility} from '../../actions/accommodations';
 import { ACCOMMODATION_LOADING,
     SET_ACCOMMODATIONS,
     SET_ACCOMMODATION_AVAILIBILITY,
@@ -68,6 +72,16 @@ describe('Accommodations action objects', () => {
               type: GET_ROOMS,
               id
            });
+        });
+        it('should return dispatch setAccommodations', () => {
+            const dispatch = { accommodation: undefined, type: SET_ACCOMMODATIONS};
+            const action = setAccommodations();
+            expect(action).toEqual(dispatch);
+        });
+        it('should return dispatch startSetAccommodationAvailibility', () => {
+           const dispatch = { accommodationAvailibility: undefined, type: SET_ACCOMMODATION_AVAILIBILITY };
+           const action = setAccommodationAvailibility();
+           expect(action).toEqual(dispatch);
         });
     });
     describe('JSON data loading', () => {
