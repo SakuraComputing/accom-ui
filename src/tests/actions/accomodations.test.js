@@ -1,5 +1,7 @@
 import {setProfileLoading, setAccommodations, setAccommodationAvailibility} from '../../actions/accommodations';
-import { ACCOMMODATION_LOADING, SET_ACCOMMODATIONS, SET_ACCOMMODATION_AVAILIBILITY} from '../../actions/types';
+import { ACCOMMODATION_LOADING,
+    SET_ACCOMMODATIONS,
+    SET_ACCOMMODATION_AVAILIBILITY} from '../../actions/types';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 

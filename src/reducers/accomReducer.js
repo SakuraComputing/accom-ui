@@ -1,20 +1,19 @@
 import {
     SET_ACCOMMODATIONS,
-    GET_ACCOMMODATIONS
+    GET_ROOMS
 } from "../actions/types";
 
-const accomodationReduserDefaultsState = {
+const accomodationReducerDefaultsState = {
     accommodations: null,
     loading: false
 };
-export default (state = accomodationReduserDefaultsState, action) => {
+export default (state = accomodationReducerDefaultsState, action) => {
 
     switch(action.type) {
-        case GET_ACCOMMODATIONS:
+        case GET_ROOMS:
                 return {
                     ...state,
-                    accommodations: action.payload,
-                    loading: false
+                    rooms: action.rooms
                 };
         case SET_ACCOMMODATIONS:
             return action.accommodations;

@@ -1,6 +1,11 @@
 import accomReducer from '../../../src/reducers/accomReducer';
+import { GET_ROOMS,
+        SET_ACCOMMODATIONS,
+        SET_ACCOMMODATION_AVAILIBILITY
+} from '../../actions/types';
+import accommodations from '../fixtures/accomodation';
 
-describe('Accomodation Reducer', () => {
+describe('Accommodation Reducer', () => {
 
     it('should set default state',() => {
         const initState = {
@@ -10,14 +15,22 @@ describe('Accomodation Reducer', () => {
         const state = accomReducer(undefined, { type: '@@INIT'});
         expect(state).toEqual(initState);
     });
-    it('should get all accomodations', () => {
-       const action = {
-           type: 'GET_ACCOMMODATIONS'
-       };
-       const state = accomReducer(undefined, action);
-       expect(state).toEqual({
-           accommodations: action.payload,
-           loading: false
-       })
+    // it('should get all rooms for given accommodation id', () => {
+    //    const action = {
+    //        type: GET_ROOMS
+    //    };
+    //    const state = accomReducer(undefined, action);
+    //    expect(state).toEqual({
+    //        accommodations: action.rooms,
+    //        loading: false
+    //    })
+    // });
+    it('should set all accommodations', () => {
+        const action = {
+            type: SET_ACCOMMODATIONS,
+            accommodations
+        };
+        const state = accomReducer(undefined, action);
+        expect(state).toEqual(accommodations)
     });
 });
