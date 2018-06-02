@@ -1,5 +1,5 @@
 // Profile Loading
-import { ACCOMMODATION_LOADING, SET_ACCOMMODATIONS, SET_ACCOMMODATION_AVAILIBILITY } from './types';
+import { ACCOMMODATION_LOADING, SET_ACCOMMODATIONS, SET_ACCOMMODATION_AVAILIBILITY,GET_ROOMS } from './types';
 import ACCOM_JSON from '../../data/accommodation_data';
 import ACCOM__AVAIL_JSON from '../../data/accommodation_availability_data';
 
@@ -19,6 +19,12 @@ export const setAccommodations = (accommodations) => ({
 export const setAccommodationAvailibility = (accommodationAvailibility) => ({
    type: SET_ACCOMMODATION_AVAILIBILITY,
     accommodationAvailibility
+});
+
+//GET_ROOMS
+export const getRooms = (id) => ({
+  type: GET_ROOMS,
+  id
 });
 
 // Get Accommodation JSON

@@ -1,9 +1,12 @@
-import {setProfileLoading, setAccommodations, setAccommodationAvailibility} from '../../actions/accommodations';
+import {setProfileLoading, setAccommodations, setAccommodationAvailibility, getRooms} from '../../actions/accommodations';
 import { ACCOMMODATION_LOADING,
     SET_ACCOMMODATIONS,
-    SET_ACCOMMODATION_AVAILIBILITY} from '../../actions/types';
+    SET_ACCOMMODATION_AVAILIBILITY,
+    GET_ROOMS
+} from '../../actions/types';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
+import rooms from '../fixtures/rooms';
 
 const createMockStore = configureMockStore([thunk]);
 
@@ -57,6 +60,14 @@ describe('Accommodations action objects', () => {
                 type: SET_ACCOMMODATION_AVAILIBILITY,
                 accommodationAvailibility
             });
+        });
+        it('should set the get rooms object', () => {
+            const id = 1;
+           const action = getRooms(id);
+           expect(action).toEqual({
+              type: GET_ROOMS,
+              id
+           });
         });
     });
     describe('JSON data loading', () => {
