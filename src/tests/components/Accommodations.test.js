@@ -55,7 +55,6 @@ describe('Accomodations Page', () => {
         it('should update the search to the correct value', () => {
             const value = 'E';
             wrapper.instance().updateSearch({ target: value });
-            console.log('Wrapper', wrapper);
             expect(wrapper.length).toEqual(1);
         });
 

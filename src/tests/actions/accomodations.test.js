@@ -35,24 +35,26 @@ describe('Accommodations action objects', () => {
         }]
     };
 
-    it('should setup the accomodations action object', () => {
-        const action = setProfileLoading();
-        expect(action).toEqual({
-            type: ACCOMMODATION_LOADING
-        })
-    });
-    it('should set the accommodations json object', () => {
-       const action = setAccommodations(accommodations);
-       expect(action).toEqual({
-           type: SET_ACCOMMODATIONS,
-           accommodations
-       })
-    });
-    it('should set the accommodations availablity json object', () => {
-        const action = setAccommodationAvailibility(accommodationAvailibility);
-        expect(action).toEqual({
-            type: SET_ACCOMMODATION_AVAILIBILITY,
-            accommodationAvailibility
+    describe('Action objects', () => {
+        it('should setup the accomodations action object', () => {
+            const action = setProfileLoading();
+            expect(action).toEqual({
+                type: ACCOMMODATION_LOADING
+            })
+        });
+        it('should set the accommodations json object', () => {
+           const action = setAccommodations(accommodations);
+           expect(action).toEqual({
+               type: SET_ACCOMMODATIONS,
+               accommodations
+           })
+        });
+        it('should set the accommodations availablity json object', () => {
+            const action = setAccommodationAvailibility(accommodationAvailibility);
+            expect(action).toEqual({
+                type: SET_ACCOMMODATION_AVAILIBILITY,
+                accommodationAvailibility
+            });
         });
     });
     describe('JSON data loading', () => {
