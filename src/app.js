@@ -14,7 +14,7 @@ import './styles/styles.scss';
 const store = configureStore();
 
 store.dispatch(startSetAccommodations());
-// store.dispatch(startSetRoomAvailibility());
+store.dispatch(startSetRoomAvailibility());
 const jsx = (
     <Provider store={store}>
         <AppRouter />

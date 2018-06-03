@@ -9,9 +9,9 @@ export const setRoomAvailibility = (roomAvailibility) => ({
 
 // Get Accommodation Availibility JSON
 export const startSetRoomAvailibility = () => {
-    const roomAvailibility = ACCOM__AVAIL_JSON["rooms"];
+    const roomArray = ACCOM__AVAIL_JSON["rooms"];
     return(dispatch) => {
-        return dispatch(setRoomAvailibility(roomAvailibility));
+        return dispatch(setRoomAvailibility(roomArray));
     }
 };
 
