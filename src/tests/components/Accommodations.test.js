@@ -4,7 +4,7 @@ import toJSON from 'enzyme-to-json';
 import { Accommodations } from '../../components/Accommodations';
 import accommodationJson from '../../../data/accommodation_data';
 
-let accommodations;
+let accommodations, initialState;
 
 beforeEach(() => {
     accommodations = accommodationJson["accommodations"];
@@ -57,7 +57,6 @@ describe('Accomodations Page', () => {
 
         beforeEach(() => {
             wrapper = shallow(<Accommodations accommodations={accommodations}/>);
-
         });
 
         it('should update the search to the correct value', () => {

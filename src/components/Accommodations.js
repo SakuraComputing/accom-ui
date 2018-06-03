@@ -12,7 +12,8 @@ export class Accommodations extends React.Component {
             renderedAccommodations: [],
             page: 1,
             number_iterations: 2,
-            search: ''
+            search: '',
+            total: 0
         };
         this.handlePageChange = this.handlePageChange.bind(this);
         this.updateSearch = this.updateSearch.bind(this);
