@@ -7,7 +7,7 @@ export class Room extends React.Component {
 
     constructor(props){
         super(props);
-        
+
     }
 
     getRoomsAvailable() {
@@ -16,7 +16,7 @@ export class Room extends React.Component {
             const { available }  = availability;
             return <span className="rooms-available">Rooms available: {available}</span>
         } else {
-            return <th className="room-sold-out">Sold Out</th>;
+            return <div className="room-sold-out">Sold Out</div>;
         }
     }
 
@@ -29,7 +29,7 @@ export class Room extends React.Component {
                 <span>Today's Price: { supplement_price ? supplement_price.price.price : '' }</span>
             </div>
         } else {
-            return <th className="room-sold-out">You missed it our last room sold out</th>;
+            return <div className="room-sold-out">You missed it our last room sold out</div>;
         }
     }
 
@@ -51,15 +51,15 @@ export class Room extends React.Component {
                 <div className="details-container">
                     <div className="details-container__row">
                         <div className="details-container__col">
-                            <th className="details-container__col__header">Room Name</th>
+                            <div className="details-container__col__header">Room Name</div>
                             {this.props.name}
                         </div>
                         <div className="details-container__col">
-                            <th className="details-container__col__header">Room Type</th>
+                            <div className="details-container__col__header">Room Type</div>
                             {this.props.room_type_description}
                         </div>
                         <div className="details-container__col">
-                            <th className="details-container__col__header">Occupancy</th>
+                            <div className="details-container__col__header">Occupancy</div>
                             <li><span>{this.props.occupancy} pers. </span>(Minimum: {this.props.min_occupancy})</li>
                         </div>
                         <div className="details-container__col">
@@ -71,7 +71,7 @@ export class Room extends React.Component {
                     </div>
                 </div>
                 <div className="list-header">
-                    <th>Facilities</th>
+                    <div>Facilities</div>
                     { this.props.facilities ? facilityList(this.props.facilities) : <li>Only Basic Facilities Avaliable</li>}
                 </div>
                 <div className="room-desc">
