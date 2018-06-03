@@ -2,7 +2,13 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 import { Accommodations } from '../../components/Accommodations';
-import accommodations from '../fixtures/accomodation';
+import accommodationJson from '../../../data/accommodation_data';
+
+let accommodations;
+
+beforeEach(() => {
+    accommodations = accommodationJson["accommodations"];
+});
 
 describe('Accomodations Page', () => {
 
@@ -39,7 +45,7 @@ describe('Accomodations Page', () => {
                 page: 2,
                 renderedAccommodations: [],
                 search: "",
-                total: 1
+                total: 99
             };
             expect(wrapper.state()).toEqual(newState);
          })

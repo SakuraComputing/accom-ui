@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import AccommodationItem from'./AccommodationItem';
-import data from '../../data/accommodation_data';
 import Pagination from '../common/Pagination';
 
 export class Accommodations extends React.Component {
@@ -43,7 +42,7 @@ export class Accommodations extends React.Component {
     }
 
     componentDidMount() {
-        const { accommodations } = this.props.accommodations;
+        const { accommodations } = this.props;
         this.setState({
             accommodations,
             renderedAccommodations: accommodations.slice(0,this.state.number_iterations),

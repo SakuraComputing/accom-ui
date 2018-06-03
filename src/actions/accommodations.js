@@ -29,8 +29,9 @@ export const getRooms = (id) => ({
 
 // Get Accommodation JSON
 export const startSetAccommodations = () => {
-  return(dispatch) => {
-      return dispatch(setAccommodations(ACCOM_JSON))
+    const accommodationArray = ACCOM_JSON["accommodations"];
+    return(dispatch) => {
+      return dispatch(setAccommodations(accommodationArray))
   }
 };
 

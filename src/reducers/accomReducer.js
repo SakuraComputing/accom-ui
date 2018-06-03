@@ -3,18 +3,19 @@ import {
     GET_ROOMS
 } from "../actions/types";
 
-const accomodationReducerDefaultsState = {
-    accommodations: null,
-    loading: false
-};
+const accomodationReducerDefaultsState = [];
 export default (state = accomodationReducerDefaultsState, action) => {
 
     switch(action.type) {
         case GET_ROOMS:
-                return {
-                    ...state,
-                    rooms: action.rooms
-                };
+                return state.map((room) => {
+                    if (room.id === action.id) {
+                        return {
+                            ...room
+                         };
+                } else {
+                    return room;
+                }});
         case SET_ACCOMMODATIONS:
             return action.accommodations;
         default:

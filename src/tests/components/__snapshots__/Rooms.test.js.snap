@@ -8,160 +8,34 @@ exports[`Rooms Page should render correctly 1`] = `
     Rooms
   </h2>
   <Room
-    description="<p><i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included</p>"
-    extras={Array []}
-    facilities={Array []}
-    id={343}
-    key="343"
-    min_occupancy={7}
-    name="7 Bed Apartment In Town - 6 nights Sunday Arrival"
-    number_of_core_nights={6}
-    occupancy={7}
-    per_core_night_price={
-      Object {
-        "price": Object {
-          "currency_exponent": 2,
-          "currency_id": 98,
-          "currency_iso_code": "GBP",
-          "price": "£87.34",
-          "value": 8734,
-        },
-      }
-    }
-    per_night_prices={
-      Array [
-        Object {
-          "iso_value": "2018-04-07",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£69.00",
-            "value": 6900,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-08",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-09",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-10",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-11",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-12",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-13",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£0.00",
-            "value": 0,
-          },
-        },
-        Object {
-          "iso_value": "2018-04-14",
-          "price": Object {
-            "currency_exponent": 2,
-            "currency_id": 98,
-            "currency_iso_code": "GBP",
-            "price": "£69.00",
-            "value": 6900,
-          },
-        },
-      ]
-    }
-    room_type_description="7 Bed Apartment"
-    rules={
-      Object {
-        "available_end_date": Object {
-          "iso_value": "2018-04-13 00:00:00",
-          "isotz_value": "2018-04-13T00:00:00+01:00",
-        },
-        "available_start_date": Object {
-          "iso_value": "2018-04-08 00:00:00",
-          "isotz_value": "2018-04-08T00:00:00+01:00",
-        },
-        "extended_end_date": Object {
-          "iso_value": "2018-04-14 00:00:00",
-          "isotz_value": "2018-04-14T00:00:00+01:00",
-        },
-        "extended_start_date": Object {
-          "iso_value": "2018-04-07 00:00:00",
-          "isotz_value": "2018-04-07T00:00:00+01:00",
-        },
-        "mandatory": false,
-        "maximum_nights": null,
-        "minimum_nights": null,
-        "per_person": true,
-        "purchase_bookingflow": true,
-        "purchase_dashboard": true,
-        "purchase_end_date": Object {
-          "iso_value": "2018-04-07 00:00:00",
-          "isotz_value": "2018-04-07T00:00:00+01:00",
-        },
-        "purchase_start_date": Object {
-          "iso_value": "2017-06-28 00:00:00",
-          "isotz_value": "2017-06-28T00:00:00+01:00",
-        },
-      }
-    }
-    sort_order={982}
-    supplement_price={
-      Object {
-        "price": Object {
-          "currency_exponent": 2,
-          "currency_id": 98,
-          "currency_iso_code": "GBP",
-          "price": "£524.00",
-          "value": 52400,
-        },
-      }
-    }
-    type_id={30}
+    description="<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included"
+    id={129}
+    key="129"
+    min_occupancy={2}
+    name="Austrian Twin/Double"
+    number_of_core_nights={null}
+    occupancy={2}
+    per_night_prices={Array []}
+    room_type_description="Austrian Twin/Double"
+    sort_order={450}
+    type_id={22}
     upsell=""
-    website_url=""
+    website_url="http://www.almhof-mayrhofen.at"
+  />
+  <Room
+    description="<i class=\\"fa fa-ticket fa-1\\" aria-hidden=\\"true\\"></i> Festival Ticket Included &nbsp; &nbsp; &nbsp;<i class=\\"fa fa-coffee fa-1\\" aria-hidden=\\"true\\"></i> Breakfast Included"
+    id={130}
+    key="130"
+    min_occupancy={3}
+    name="Triple"
+    number_of_core_nights={null}
+    occupancy={3}
+    per_night_prices={Array []}
+    room_type_description="Triple"
+    sort_order={0}
+    type_id={4}
+    upsell=""
+    website_url="http://www.almhof-mayrhofen.at"
   />
 </div>
 `;

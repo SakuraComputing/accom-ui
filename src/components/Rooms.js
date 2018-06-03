@@ -1,14 +1,17 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Room from './Room';
 import facilityList from '../common/facilityList';
-import data from '../../data/accommodation_data.json';
 
 export class Rooms extends React.Component {
 
-    getRooms() {
-        let accommodation = data["accommodations"].filter(accommodation => accommodation.id === parseInt(this.props.match.params.id));
-        const [ { rooms } ] = accommodation;
+    constructor(props) {
+        super(props);
+        this.getRooms = this.getRooms.bind(this);
+    }
 
+    getRooms() {
+        const [ { rooms } ] = this.props.accommodations.filter(accommodation => accommodation.id === parseInt(this.props.match.params.id));
         let RoomItem;
         return RoomItem = rooms.map(room => (<Room key={room.id} {...room}/>))
     }
@@ -24,4 +27,7 @@ export class Rooms extends React.Component {
         )
     }
 }
-export default Rooms;
+const mapStateToProps = (state) =>  ({
+   accommodations: state.accommodations
+});
+export default connect(mapStateToProps, null)(Rooms);
