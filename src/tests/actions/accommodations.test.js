@@ -1,16 +1,13 @@
-import {setProfileLoading,
+import {
     setAccommodations,
-    setAccommodationAvailibility,
     getRooms,
-    startSetAccommodationAvailibility} from '../../actions/accommodations';
-import { ACCOMMODATION_LOADING,
+    startSetAccommodations} from '../../actions/accommodations';
+import {
     SET_ACCOMMODATIONS,
-    SET_ACCOMMODATION_AVAILIBILITY,
-    GET_ROOMS
+    SET_ROOM_AVAILIBILITY,
 } from '../../actions/types';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import rooms from '../fixtures/rooms';
 
 const createMockStore = configureMockStore([thunk]);
 
@@ -45,12 +42,6 @@ describe('Accommodations action objects', () => {
     };
 
     describe('Action objects', () => {
-        it('should setup the accomodations action object', () => {
-            const action = setProfileLoading();
-            expect(action).toEqual({
-                type: ACCOMMODATION_LOADING
-            })
-        });
         it('should set the accommodations json object', () => {
            const action = setAccommodations(accommodations);
            expect(action).toEqual({
@@ -58,30 +49,10 @@ describe('Accommodations action objects', () => {
                accommodations
            })
         });
-        it('should set the accommodations availablity json object', () => {
-            const action = setAccommodationAvailibility(accommodationAvailibility);
-            expect(action).toEqual({
-                type: SET_ACCOMMODATION_AVAILIBILITY,
-                accommodationAvailibility
-            });
-        });
-        it('should set the get rooms object', () => {
-            const id = 1;
-           const action = getRooms(id);
-           expect(action).toEqual({
-              type: GET_ROOMS,
-              id
-           });
-        });
         it('should return dispatch setAccommodations', () => {
             const dispatch = { accommodation: undefined, type: SET_ACCOMMODATIONS};
             const action = setAccommodations();
             expect(action).toEqual(dispatch);
-        });
-        it('should return dispatch startSetAccommodationAvailibility', () => {
-           const dispatch = { accommodationAvailibility: undefined, type: SET_ACCOMMODATION_AVAILIBILITY };
-           const action = setAccommodationAvailibility();
-           expect(action).toEqual(dispatch);
         });
     });
     describe('JSON data loading', () => {
@@ -102,14 +73,5 @@ describe('Accommodations action objects', () => {
             };
             expect(actions[0]).toEqual(expectedPayload);
         });
-        it('should start setup of the JSON Accommodation Availibility Data', () => {
-            store.dispatch(setAccommodationAvailibility(accommodationAvailibility));
-            const expectedPayload = {
-                type: SET_ACCOMMODATION_AVAILIBILITY,
-                accommodationAvailibility
-            };
-            expect(actions[0]).toEqual(expectedPayload);
-        });
-
     });
 });

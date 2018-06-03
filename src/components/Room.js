@@ -7,7 +7,6 @@ export class Room extends React.Component {
 
     constructor(props){
         super(props);
-
     }
 
     getRoomsAvailable() {

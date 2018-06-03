@@ -25,7 +25,7 @@ describe('Room Page', () => {
             const id = 16;
             wrapper = shallow(<Room id={id}/>);
             const returnNoRooms = wrapper.instance().getRoomsAvailable();
-            const test = <th className="room-sold-out">Sold Out</th>;
+            const test = <div className="room-sold-out">Sold Out</div>;
             expect(returnNoRooms).toEqual(test);
         });
     });

@@ -13,29 +13,29 @@ exports[`Room Page should render the form correctly 1`] = `
       <div
         className="details-container__col"
       >
-        <th
+        <div
           className="details-container__col__header"
         >
           Room Name
-        </th>
+        </div>
       </div>
       <div
         className="details-container__col"
       >
-        <th
+        <div
           className="details-container__col__header"
         >
           Room Type
-        </th>
+        </div>
       </div>
       <div
         className="details-container__col"
       >
-        <th
+        <div
           className="details-container__col__header"
         >
           Occupancy
-        </th>
+        </div>
         <li>
           <span>
              pers. 
@@ -57,20 +57,20 @@ exports[`Room Page should render the form correctly 1`] = `
       <div
         className="details-container__col"
       >
-        <th
+        <div
           className="room-sold-out"
         >
           You missed it our last room sold out
-        </th>
+        </div>
       </div>
     </div>
   </div>
   <div
     className="list-header"
   >
-    <th>
+    <div>
       Facilities
-    </th>
+    </div>
     <li>
       Only Basic Facilities Avaliable
     </li>
