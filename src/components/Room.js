@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import ReactHtmlParser from 'react-html-parser';
 import facilityList from '../common/facilityList';
 import Availability from '../../data/accommodation_availability_data';
@@ -7,12 +8,21 @@ export class Room extends React.Component {
 
     constructor(props){
         super(props);
+
+        this.state = {
+
+        };
+    }
+
+    componentDidMount() {
+
     }
 
     getRoomsAvailable() {
-        let availability = Availability["rooms"].find(room => room.id === this.props.id);
-        if(availability) {
-            const { available }  = availability;
+        let availability = this.props.roomsAvailibility.filter(room => room.id === this.props.id);
+
+        if(availability.length > 0) {
+            const available = availability[0].available;
             return <span className="rooms-available">Rooms available: {available}</span>
         } else {
             return <div className="room-sold-out">Sold Out</div>;
@@ -20,7 +30,7 @@ export class Room extends React.Component {
     }
 
     getprices () {
-        const { supplement_price }   = this.props;
+        const { supplement_price }   = this.state;
 
         if(supplement_price) {
             const { price: { price }} = supplement_price;
@@ -82,4 +92,8 @@ export class Room extends React.Component {
     }
 };
 
-export default Room;
+const mapStateToProps = (state) => ({
+    roomsAvailibility: state.roomsAvailibility
+});
+
+export default connect(mapStateToProps)(Room);

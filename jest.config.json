@@ -6,7 +6,7 @@
   "snapshotSerializers": [
     "enzyme-to-json/serializer"
   ],
-  "verbose": true,
+  "verbose": false,
   "moduleNameMapper": {
     "accommodation_data.json": "<rootDir>data/accommodation_data.json"
   }

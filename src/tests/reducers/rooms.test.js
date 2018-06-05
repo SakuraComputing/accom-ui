@@ -1,7 +1,7 @@
 import roomReducer from '../../../src/reducers/roomReducer';
 import { SET_ROOM_AVAILIBILITY,
 } from '../../actions/types';
-import roomsAvailibility from '../fixtures/rooms';
+import roomAvailibility from '../../../data/accommodation_availability_data';
 
 describe('Rooms Reducer', () => {
 
@@ -13,9 +13,9 @@ describe('Rooms Reducer', () => {
     it('should set all rooms available', () => {
         const action = {
             type: SET_ROOM_AVAILIBILITY,
-            roomsAvailibility
+            roomAvailibility
         };
         const state = roomReducer(undefined, action);
-        expect(state).toEqual(roomsAvailibility)
+        expect(state).toEqual(roomAvailibility)
     });
 });

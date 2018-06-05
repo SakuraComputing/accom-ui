@@ -12,7 +12,7 @@ describe('Rooms Page', () => {
         accommodations = accommodationsJson["accommodations"];
         const props = {
                 params: {
-                   id: "65"
+                   id: "161"
                 },
         };
         wrapper = shallow(<Rooms match={props} accommodations={accommodations} />);

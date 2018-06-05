@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Room from '../../components/Room';
+import { Room } from '../../components/Room';
 import toJSON from 'enzyme-to-json';
 import roomData from '../fixtures/rooms';
 
@@ -10,7 +10,8 @@ describe('Room Page', () => {
 
     it('should render the form correctly', () => {
         const id = 161;
-        wrapper = shallow(<Room id={id}/>);
+        wrapper.setProps({ roomsAvailibility:  roomData });
+        wrapper = shallow(<Room id={id} />);
         expect(wrapper).toMatchSnapshot();
     });
     describe('Available Rooms', () => {
