@@ -30,7 +30,8 @@ export class Room extends React.Component {
     }
 
     getprices () {
-        const { supplement_price }   = this.state;
+        
+        const { supplement_price }   = this.props;
 
         if(supplement_price) {
             const { price: { price }} = supplement_price;
@@ -43,8 +44,8 @@ export class Room extends React.Component {
     }
 
     displayReserveButton() {
-        let availability = Availability["rooms"].find(room => room.id === this.props.id);
-        if(availability) {
+        let availability = this.props.roomsAvailibility.filter(room => room.id === this.props.id);
+        if(availability.length > 0) {
             return <div className="clearfix">
                 <button className="button button--reserve button--div">I'll Reserve</button>
             </div>
