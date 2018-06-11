@@ -2,7 +2,7 @@
 
 React JS / WepPack / JSON / Redux / Jest
 
-##Task
+## Task
 
 Booking.com UI POC rendering JSON files using Redux.
 
